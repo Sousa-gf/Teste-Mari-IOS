@@ -1,13 +1,25 @@
-document.addEventListener("scroll", function () {
-    const scrollY = window.scrollY;
-    const layers = document.querySelectorAll(".parallax-img");
+const floatingElements = document.querySelectorAll('.floating-img');
 
-    layers.forEach((layer, index) => {
-      // Cada imagem tem uma profundidade diferente
-      const speed = (index + 1) * 0.2;
-      layer.style.transform = `translateY(${scrollY * speed * -0.2}px)`;
-    });
-  });
+  // Inicializa posições Y
+const positions = Array.from(floatingElements).map((el, i) => ({
+    el: el,
+    top: parseFloat(getComputedStyle(el).top),
+    speed: 0.2 + Math.random() * 0.3 // velocidades diferentes
+}));
+
+function animate() {
+    positions.forEach(obj => {
+      obj.top += obj.speed;
+      if (obj.top > window.innerHeight + 100) {
+        obj.top = -150; // reinicia acima da tela
+      }
+      obj.el.style.top = `${obj.top}px`;
+});
+
+requestAnimationFrame(animate);
+}
+
+animate();
 
 // Função para iniciar o contador
 function startCounter(element, start, end, duration, prefix = '') {
