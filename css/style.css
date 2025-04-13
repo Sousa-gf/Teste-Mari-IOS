@@ -681,53 +681,78 @@ footer{
     
     /* Segunda Section "Parallax" */
     
-    .parallax-img {
-        position: fixed;
-        width: 13%;
-        height: auto;
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 1;
-        pointer-events: none; /* evita que capture cliques */
+    .parallax {
+        background-color: #FFFAF3;
+        position: relative;
+        overflow: hidden;
       }
       
-      /* Posições específicas */
+      .parallax-wrapper {
+        position: relative;
+        min-height: 100vh;
+        z-index: 0;
+      }
+      
+      /* Parallax IMG base */
+      .parallax-img {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 13%;
+        width: 100%;
+        height: 100%;
+        will-change: transform;
+        pointer-events: none;
+        z-index: 1;
+      }
+      
+      /* Imagens individuais com posição inicial */
       #img-parallax-1 {
         background-image: url('img/Vegetais/ABO02_LP.png');
         left: 30px;
         top: 100px;
       }
-      
       #img-parallax-2 {
         background-image: url('img/Vegetais/BROCO01_LP.png');
         left: 50px;
         top: 300px;
       }
-      
       #img-parallax-3 {
         background-image: url('img/Vegetais/CEN 01_LP.png');
         left: 70px;
         top: 200px;
       }
-      
       #img-parallax-4 {
         background-image: url('img/Vegetais/ABO 01_LP.png');
         right: 250px;
         top: 230px;
       }
-      
       #img-parallax-5 {
         background-image: url('img/Vegetais/BROCO02_LP.png');
         right: 300px;
         top: 350px;
       }
-      
       #img-parallax-6 {
         background-image: url('img/Vegetais/CEN 02_LP.png');
         right: 300px;
         top: 150px;
       }
-    
+      
+      .texto-parallax {
+        background-color: #F28705;
+        margin: 50px 4.5%;
+        padding: 60px 10%;
+        display: inline-block;
+        border-radius: 15px;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: bold;
+        width: 70%;
+        text-align: center;
+        color: #FFFAF3;
+        position: relative;
+        z-index: 10;
+      }
+      
     /* Terceira Section "Minha forma de trabalho" */
     
     .forma-trabalho{
@@ -1283,65 +1308,76 @@ footer{
     
     /* Segunda Section "Parallax" */
     
-    .texto-parallax{
-        background-color: #F28705;
-        margin: 50px 4.5% 150px 4.5%;
-        padding: 60px 20%;
-        display: inline-block;
-        border-radius: 15px;
-        font-family: "Montserrat";
-        font-size: 35px;
-        font-weight: bold;
-        width: 50%;
-        text-align: center;
-        color: #FFFAF3;
-    }
-
-    .parallax-img {
-        position: fixed;
-        width: 13%;
-        height: auto;
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 1;
-        pointer-events: none; /* evita que capture cliques */
+    .parallax {
+        background-color: #FFFAF3;
+        position: relative;
+        overflow: hidden;
       }
       
-      /* Posições específicas */
+      .parallax-wrapper {
+        position: relative;
+        min-height: 100vh;
+        z-index: 0;
+      }
+      
+      /* Parallax IMG base */
+      .parallax-img {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 13%;
+        width: 100%;
+        height: 100%;
+        will-change: transform;
+        pointer-events: none;
+        z-index: 1;
+      }
+      
+      /* Imagens individuais com posição inicial */
       #img-parallax-1 {
         background-image: url('img/Vegetais/ABO02_LP.png');
         left: 30px;
         top: 100px;
       }
-      
       #img-parallax-2 {
         background-image: url('img/Vegetais/BROCO01_LP.png');
         left: 50px;
         top: 300px;
       }
-      
       #img-parallax-3 {
         background-image: url('img/Vegetais/CEN 01_LP.png');
         left: 70px;
         top: 200px;
       }
-      
       #img-parallax-4 {
         background-image: url('img/Vegetais/ABO 01_LP.png');
         right: 250px;
         top: 230px;
       }
-      
       #img-parallax-5 {
         background-image: url('img/Vegetais/BROCO02_LP.png');
         right: 300px;
         top: 350px;
       }
-      
       #img-parallax-6 {
         background-image: url('img/Vegetais/CEN 02_LP.png');
         right: 300px;
         top: 150px;
+      }
+      
+      .texto-parallax {
+        background-color: #F28705;
+        margin: 50px 4.5%;
+        padding: 60px 10%;
+        display: inline-block;
+        border-radius: 15px;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: bold;
+        width: 70%;
+        text-align: center;
+        color: #FFFAF3;
+        position: relative;
+        z-index: 10;
       }
 
     /* Terceira Section "Minha forma de trabalho" */
@@ -1911,101 +1947,77 @@ footer{
     
     /* Segunda Section "Parallax" */
     
-    .parallax{
+    .parallax {
         background-color: #FFFAF3;
-    }
-     
-    .texto-parallax{
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .parallax-wrapper {
+        position: relative;
+        min-height: 100vh;
+        z-index: 0;
+      }
+      
+      /* Parallax IMG base */
+      .parallax-img {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 13%;
+        width: 100%;
+        height: 100%;
+        will-change: transform;
+        pointer-events: none;
+        z-index: 1;
+      }
+      
+      /* Imagens individuais com posição inicial */
+      #img-parallax-1 {
+        background-image: url('img/Vegetais/ABO02_LP.png');
+        left: 30px;
+        top: 100px;
+      }
+      #img-parallax-2 {
+        background-image: url('img/Vegetais/BROCO01_LP.png');
+        left: 50px;
+        top: 300px;
+      }
+      #img-parallax-3 {
+        background-image: url('img/Vegetais/CEN 01_LP.png');
+        left: 70px;
+        top: 200px;
+      }
+      #img-parallax-4 {
+        background-image: url('img/Vegetais/ABO 01_LP.png');
+        right: 250px;
+        top: 230px;
+      }
+      #img-parallax-5 {
+        background-image: url('img/Vegetais/BROCO02_LP.png');
+        right: 300px;
+        top: 350px;
+      }
+      #img-parallax-6 {
+        background-image: url('img/Vegetais/CEN 02_LP.png');
+        right: 300px;
+        top: 150px;
+      }
+      
+      .texto-parallax {
         background-color: #F28705;
         margin: 50px 4.5%;
-        padding: 60px 10.5%;
+        padding: 60px 10%;
         display: inline-block;
         border-radius: 15px;
         font-family: "Montserrat";
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         width: 70%;
         text-align: center;
         color: #FFFAF3;
-    }
-    
-    #img-parallax-1{
-        width: 100%;
-        height: 30%;
-        margin: 3% 0%;
-        position: absolute;
-        background-image: url(img/Vegetais/ABO02_LP.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: left;
-        background-position-x: 200px;
-        background-position-y: 100px;
-    }
-    
-    #img-parallax-2{
-        width: 100%;
-        height: 30%;
-        margin: 3% 0%;
-        position: absolute;
-        background-image: url(img/Vegetais/BROCO01_LP.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: left;
-        background-position-x: 150px;
-        background-position-y: 350px;
-    }
-    
-    #img-parallax-3{
-        width: 100%;
-        height: 30%;
-        margin: 3% 0%;
-        position: absolute;
-        background-image: url(img/Vegetais/CEN\ 01_LP.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: left;
-        background-position-x: 50px;
-        background-position-y: 250px;
-    }
-    
-    #img-parallax-4{
-        width: 100%;
-        height: 85%;
-        margin: 3% 0%;
-        position: absolute;
-        background-image: url(img/Vegetais/ABO\ 01_LP.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: right;
-        background-position-x: 550px;
-        background-position-y: 400px;
-    }
-    
-    #img-parallax-5{
-        width: 100%;
-        height: 85%;
-        margin: 3% 0%;
-        position: absolute;
-        background-image: url(img/Vegetais/BROCO02_LP.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: right;
-        background-position-x: 450px;
-        background-position-y: 20px;
-    }
-    
-    #img-parallax-6{
-        width: 100%;
-        height: 85%;
-        margin: 3% 0%;
-        position: absolute;
-        background-image: url(img/Vegetais/CEN\ 02_LP.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: right;
-        background-position-x: 650px;
-        background-position-y: 250px;
-    }
+        position: relative;
+        z-index: 10;
+      }
     
     /* Terceira Section "Minha forma de trabalho" */
     
@@ -2573,19 +2585,65 @@ footer{
     
     /* Segunda Section "Parallax" */
     
-    .parallax-img {
-        position: fixed;
-        width: 13%;
-        height: auto;
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 1;
-        pointer-events: none; /* evita que capture cliques */
+    .parallax {
+        background-color: #FFFAF3;
+        position: relative;
+        overflow: hidden;
       }
-
-    .texto-parallax{
+      
+      .parallax-wrapper {
+        position: relative;
+        min-height: 100vh;
+        z-index: 0;
+      }
+      
+      /* Parallax IMG base */
+      .parallax-img {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 13%;
+        width: 100%;
+        height: 100%;
+        will-change: transform;
+        pointer-events: none;
+        z-index: 1;
+      }
+      
+      /* Imagens individuais com posição inicial */
+      #img-parallax-1 {
+        background-image: url('img/Vegetais/ABO02_LP.png');
+        left: 30px;
+        top: 100px;
+      }
+      #img-parallax-2 {
+        background-image: url('img/Vegetais/BROCO01_LP.png');
+        left: 50px;
+        top: 300px;
+      }
+      #img-parallax-3 {
+        background-image: url('img/Vegetais/CEN 01_LP.png');
+        left: 70px;
+        top: 200px;
+      }
+      #img-parallax-4 {
+        background-image: url('img/Vegetais/ABO 01_LP.png');
+        right: 250px;
+        top: 230px;
+      }
+      #img-parallax-5 {
+        background-image: url('img/Vegetais/BROCO02_LP.png');
+        right: 300px;
+        top: 350px;
+      }
+      #img-parallax-6 {
+        background-image: url('img/Vegetais/CEN 02_LP.png');
+        right: 300px;
+        top: 150px;
+      }
+      
+      .texto-parallax {
         background-color: #F28705;
-        margin: 30px 4.5% 50px 4.5%;
+        margin: 50px 4.5%;
         padding: 60px 10%;
         display: inline-block;
         border-radius: 15px;
@@ -2595,43 +2653,8 @@ footer{
         width: 70%;
         text-align: center;
         color: #FFFAF3;
-    }
-      
-      /* Posições específicas */
-      #img-parallax-1 {
-        background-image: url('img/Vegetais/ABO02_LP.png');
-        left: 30px;
-        top: 100px;
-      }
-      
-      #img-parallax-2 {
-        background-image: url('img/Vegetais/BROCO01_LP.png');
-        left: 50px;
-        top: 300px;
-      }
-      
-      #img-parallax-3 {
-        background-image: url('img/Vegetais/CEN 01_LP.png');
-        left: 70px;
-        top: 200px;
-      }
-      
-      #img-parallax-4 {
-        background-image: url('img/Vegetais/ABO 01_LP.png');
-        right: 250px;
-        top: 230px;
-      }
-      
-      #img-parallax-5 {
-        background-image: url('img/Vegetais/BROCO02_LP.png');
-        right: 300px;
-        top: 350px;
-      }
-      
-      #img-parallax-6 {
-        background-image: url('img/Vegetais/CEN 02_LP.png');
-        right: 300px;
-        top: 150px;
+        position: relative;
+        z-index: 10;
       }
         
     /* Terceira Section "Minha forma de trabalho" */
@@ -3226,10 +3249,58 @@ footer{
         background-color: #FFFAF3;
         position: relative;
         overflow: hidden;
-        min-height: 100vh;
       }
       
-      /* Bloco de texto */
+      .parallax-wrapper {
+        position: relative;
+        min-height: 100vh;
+        z-index: 0;
+      }
+      
+      /* Parallax IMG base */
+      .parallax-img {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 13%;
+        width: 100%;
+        height: 100%;
+        will-change: transform;
+        pointer-events: none;
+        z-index: 1;
+      }
+      
+      /* Imagens individuais com posição inicial */
+      #img-parallax-1 {
+        background-image: url('img/Vegetais/ABO02_LP.png');
+        left: 30px;
+        top: 100px;
+      }
+      #img-parallax-2 {
+        background-image: url('img/Vegetais/BROCO01_LP.png');
+        left: 50px;
+        top: 300px;
+      }
+      #img-parallax-3 {
+        background-image: url('img/Vegetais/CEN 01_LP.png');
+        left: 70px;
+        top: 200px;
+      }
+      #img-parallax-4 {
+        background-image: url('img/Vegetais/ABO 01_LP.png');
+        right: 250px;
+        top: 230px;
+      }
+      #img-parallax-5 {
+        background-image: url('img/Vegetais/BROCO02_LP.png');
+        right: 300px;
+        top: 350px;
+      }
+      #img-parallax-6 {
+        background-image: url('img/Vegetais/CEN 02_LP.png');
+        right: 300px;
+        top: 150px;
+      }
+      
       .texto-parallax {
         background-color: #F28705;
         margin: 50px 4.5%;
@@ -3244,54 +3315,6 @@ footer{
         color: #FFFAF3;
         position: relative;
         z-index: 10;
-      }
-      
-      /* Simula o comportamento fixo */
-      .parallax-img {
-        position: fixed;
-        width: 13%;
-        height: auto;
-        background-repeat: no-repeat;
-        background-size: contain;
-        z-index: 1;
-        pointer-events: none; /* evita que capture cliques */
-      }
-      
-      /* Posições específicas */
-      #img-parallax-1 {
-        background-image: url('img/Vegetais/ABO02_LP.png');
-        left: 30px;
-        top: 100px;
-      }
-      
-      #img-parallax-2 {
-        background-image: url('img/Vegetais/BROCO01_LP.png');
-        left: 50px;
-        top: 300px;
-      }
-      
-      #img-parallax-3 {
-        background-image: url('img/Vegetais/CEN 01_LP.png');
-        left: 70px;
-        top: 200px;
-      }
-      
-      #img-parallax-4 {
-        background-image: url('img/Vegetais/ABO 01_LP.png');
-        right: 250px;
-        top: 230px;
-      }
-      
-      #img-parallax-5 {
-        background-image: url('img/Vegetais/BROCO02_LP.png');
-        right: 300px;
-        top: 350px;
-      }
-      
-      #img-parallax-6 {
-        background-image: url('img/Vegetais/CEN 02_LP.png');
-        right: 300px;
-        top: 150px;
       }
         
     /* Terceira Section "Minha forma de trabalho" */

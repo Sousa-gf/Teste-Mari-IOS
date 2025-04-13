@@ -1,3 +1,14 @@
+document.addEventListener("scroll", function () {
+    const scrollY = window.scrollY;
+    const layers = document.querySelectorAll(".parallax-img");
+
+    layers.forEach((layer, index) => {
+      // Cada imagem tem uma profundidade diferente
+      const speed = (index + 1) * 0.2;
+      layer.style.transform = `translateY(${scrollY * speed * -0.2}px)`;
+    });
+  });
+
 // Função para iniciar o contador
 function startCounter(element, start, end, duration, prefix = '') {
     let range = end - start;
