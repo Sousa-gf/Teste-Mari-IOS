@@ -462,7 +462,7 @@ h1, h2{
 
 .card-m-a p{
     font-family: "Roboto";
-    color: #666666;
+    color: #212121;
 }
 
 /* Oitava Section "Depoimentos" */
@@ -706,7 +706,7 @@ footer{
     
     .texto-conteudo{
         width: 55%;
-        color: #777777;
+        color: #212121;
         font-family: "Montserrat";
         padding: 40px 80px 50px 450px;
         line-height: 22px;
@@ -1090,7 +1090,7 @@ footer{
     
     .card-m-a p{
         font-family: "Roboto";
-        color: #666666;
+        color: #212121;;
     }
     
     /* Oitava Section "Depoimentos" */
@@ -1332,7 +1332,7 @@ footer{
     
     .texto-conteudo{
         width: 45%;
-        color: #777777;
+        color: #212121;
         font-family: "Montserrat";
         padding: 10px 0px 50px 380px;
         line-height: 22px;
@@ -1708,7 +1708,7 @@ footer{
     
     .card-m-a p{
         font-family: "Roboto";
-        color: #666666;
+        color: #212121;
     }
     
     /* Oitava Section "Depoimentos" */
@@ -1959,7 +1959,7 @@ footer{
     
     .texto-conteudo{
         width: 100%;
-        color: #777777;
+        color: #212121;
         font-family: "Montserrat";
         padding: 50px 25px 280px 25px;
         line-height: 22px;
@@ -2333,7 +2333,7 @@ footer{
     
     .card-m-a{
         width: 100%;
-        margin: 20px 0px 0 5px;
+        margin: 20px 0px 0 0px;
         line-height: 22px;
         transform: scale(0.7);
     }
@@ -2346,7 +2346,7 @@ footer{
     
     .card-m-a p{
         font-family: "Roboto";
-        color: #666666;
+        color: #212121;
     }
     /* Oitava Section "Depoimentos" */
     
@@ -2608,7 +2608,7 @@ footer{
     
     .texto-conteudo{
         width: 100%;
-        color: #777777;
+        color: #212121;
         font-family: "Montserrat";
         padding: 50px 25px 350px 25px;
         line-height: 22px;
@@ -2994,7 +2994,7 @@ footer{
     
     .card-m-a p{
         font-family: "Roboto";
-        color: #666666;
+        color: #212121;
     }
     
     /* Oitava Section "Depoimentos" */
