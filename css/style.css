@@ -126,6 +126,36 @@ h1, h2{
     position: absolute;
 }
 
+#img-01{
+    top: -200px; 
+    left: 200px;
+}
+
+#img-02{
+    top: -50px; 
+    left: 200px;
+}
+
+#img-03{
+    top: -80px; 
+    left: 300px;
+}
+
+#img-04{
+    top: 0px; 
+    right: 200px;
+}
+
+#img-05{
+    top: -100px; 
+    right: 300px;
+}
+
+#img-06{
+    top: -250px; 
+    right: 200px;
+}
+
 .texto-parallax {
     background-color: #F28705;
     color: #FFFAF3;
@@ -712,20 +742,50 @@ footer{
     .rellax {
         position: absolute;
     }
+
+    #img-01{
+        top: -300px; 
+        left: 100px;
+    }
+    
+    #img-02{
+        top: -200px; 
+        left: 50px;
+    }
+    
+    #img-03{
+        top: -180px; 
+        left: 200px;
+    }
+    
+    #img-04{
+        top: -150px; 
+        right: 50px;
+    }
+    
+    #img-05{
+        top: -200px; 
+        right: 100px;
+    }
+    
+    #img-06{
+        top: -350px; 
+        right: 20px;
+    }
     
     .texto-parallax {
         background-color: #F28705;
         color: #FFFAF3;
-        padding: 60px 20%;
+        padding: 40px 20%;
         width: 50%;
         margin: 100px 5% 0 5%;
         text-align: center;
         font-family: "Montserrat", sans-serif;
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
         border-radius: 15px;
     }
-        /* Terceira Section "Minha forma de trabalho" */
+            /* Terceira Section "Minha forma de trabalho" */
     
     .forma-trabalho{
         width: 100%;
@@ -1309,7 +1369,37 @@ footer{
     .rellax {
         position: absolute;
     }
+
+    #img-01{
+        top: -250px; 
+        left: 100px;
+    }
     
+    #img-02{
+        top: -150px; 
+        left: 50px;
+    }
+    
+    #img-03{
+        top: -120px; 
+        left: 10px;
+    }
+    
+    #img-04{
+        top: -220px; 
+        right: 0px;
+    }
+    
+    #img-05{
+        top: 80px; 
+        right: 50px;
+    }
+    
+    #img-06{
+        top: -250px; 
+        right: 20px;
+    }
+ 
     .texto-parallax {
         background-color: #F28705;
         color: #FFFAF3;
@@ -1318,11 +1408,11 @@ footer{
         margin: 100px 5% 0 5%;
         text-align: center;
         font-family: "Montserrat", sans-serif;
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
         border-radius: 15px;
     }
-        
+            
     /* Terceira Section "Minha forma de trabalho" */
     
     .forma-trabalho{
@@ -1906,20 +1996,50 @@ footer{
     .rellax {
         position: absolute;
     }
+
+    #img-01{
+        top: -250px; 
+        left: 100px;
+    }
+    
+    #img-02{
+        top: -150px; 
+        left: 50px;
+    }
+    
+    #img-03{
+        top: -120px; 
+        left: 10px;
+    }
+    
+    #img-04{
+        top: -220px; 
+        right: 0px;
+    }
+    
+    #img-05{
+        top: 800px; 
+        right: 50px;
+    }
+    
+    #img-06{
+        top: -250px; 
+        right: 20px;
+    }
     
     .texto-parallax {
         background-color: #F28705;
         color: #FFFAF3;
-        padding: 60px 20%;
-        width: 50%;
+        padding: 60px 10%;
+        width: 70%;
         margin: 100px 5% 0 5%;
         text-align: center;
         font-family: "Montserrat", sans-serif;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: bold;
         border-radius: 15px;
     }
-            
+                
     /* Terceira Section "Minha forma de trabalho" */
     
     .forma-trabalho{
@@ -2509,36 +2629,66 @@ footer{
     /* Segunda Section "Parallax" */
     
 
-.parallax {
-    background-color: #FFFAF3;
-    position: relative;
-    overflow: hidden;
-    height: 50vh;
-  }
-  
-.parallax-wrapper {
-    width: 100%;
-    height: 100%;
-    display: inline;
-}
-  
-.rellax {
-    position: absolute;
-}
+    .parallax {
+        background-color: #FFFAF3;
+        position: relative;
+        overflow: hidden;
+        height: 50vh;
+      }
+      
+    .parallax-wrapper {
+        width: 100%;
+        height: 100%;
+        display: inline;
+    }
+      
+    .rellax {
+        position: absolute;
+    }
 
-.texto-parallax {
-    background-color: #F28705;
-    color: #FFFAF3;
-    padding: 60px 20%;
-    width: 50%;
-    margin: 100px 5% 0 5%;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    border-radius: 15px;
-}
-        
+    #img-01{
+        top: -350px; 
+        left: 100px;
+    }
+    
+    #img-02{
+        top: -250px; 
+        left: 50px;
+    }
+    
+    #img-03{
+        top: -220px; 
+        left: -30px;
+    }
+    
+    #img-04{
+        top: -280px; 
+        right: 0px;
+    }
+    
+    #img-05{
+        top: 800px; 
+        right: 50px;
+    }
+    
+    #img-06{
+        top: -350px; 
+        right: 20px;
+    }
+
+    .texto-parallax {
+        background-color: #F28705;
+        color: #FFFAF3;
+        padding: 60px 10%;
+        width: 70%;
+        margin: 100px 5% 0 5%;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+            
     /* Terceira Section "Minha forma de trabalho" */
     
     .forma-trabalho{
@@ -2749,8 +2899,8 @@ footer{
         transform: scale(0.55);
         position: absolute;
         transform-origin: left;
-        margin: 700px 0 0 0;
-        padding-left: 35px;
+        margin: 730px 0 0 0;
+        padding-left: 25px;
     }
     
     /* Sexta Section "Animação JS" */
