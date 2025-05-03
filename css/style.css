@@ -324,7 +324,7 @@ h1, h2{
     font-size: 60px;
     text-align: start;
     padding: 0 0 40px 0;
-    width: 80%;
+    width: 90%;
 }
 
 .lista-cfmc{
@@ -443,7 +443,7 @@ h1, h2{
     font-family: "Montserrat";
     font-size: 46px;
     width: 30%;
-    margin: 200px 100px;
+    margin: 200px 120px;
 }
 
 .card-m-a{
@@ -486,10 +486,12 @@ h1, h2{
 .depoimentos h1{
     font-size: 48px;
     margin-top: 50px;
+    margin-left: 60px;
 }
 
 .depoimentos p{
     color: #6E6E6E;
+    margin-left: 60px;
 }
 
 /* Carrosel */
@@ -563,28 +565,36 @@ h1, h2{
 }
 
 .cau-conteudo{
-    width: 30%;
+    width: 50%;
     margin: 0px 200px 0px 200px;
-    padding: 150px 0px;
+    padding: 120px 0px;
 }
 
 .cau-conteudo h1{
     font-family: "Montserrat";
-    font-size: 48px;
+    font-size: 68px;
     color: #FFFFFF;
-    line-height: 55px;
-    margin: 15px 0px;
+    line-height: 75px;
+    margin: 0px 0px 30px 0;
 }
 
 .cau-conteudo p{
     font-family: "Roboto";
     color: #FFFFFF;
-    line-height: 25px;
+    line-height: 40px;
+    font-size: 25px;
     margin: 15px 28px 15px 0px;
 }
 
 .cau-img{
-    padding: 5%;
+    padding: 9% 10% 5% 0%;
+    transform: scale(1.10);
+}
+
+.cada-animal-unico button{
+    transform: scale(1.5);
+    padding: 20px 50px;
+    margin: 50px 0 0 100px;
 }
 
 /* Footer */
@@ -594,7 +604,7 @@ footer{
 }
 
 .logo-footer{
-    margin: 70px 200px 70px 100px;
+    margin: 70px 200px 70px 190px;
 }
 
 .div-footer{
@@ -1878,7 +1888,7 @@ footer{
     /* Conteudo do Header*/
     .cabecalho{
         display: flex;
-        width: 100%;
+        width: 90%;
     }
     
     .img-cabecalho{
@@ -1954,19 +1964,21 @@ footer{
         padding: 0px;
         left: 0;
         margin-left: 18%;
-        margin-top: 520px;
+        margin-top: 480px;
     }
     
     .texto-conteudo{
         width: 100%;
         color: #212121;
         font-family: "Montserrat";
-        padding: 50px 25px 280px 25px;
+        padding: 20px 25px 280px 25px;
         line-height: 22px;
+        text-align: justify;
     }
     
     .texto-conteudo h1{
         font-size: 44px;
+        margin-left: 30px;
     }
     
     .texto-conteudo p{
@@ -2186,7 +2198,7 @@ footer{
     }
     
     .div-cfmc{
-        width: 90%;
+        width: 100%;
         margin: 0px 0 300px 0;
     }
     
@@ -2197,10 +2209,10 @@ footer{
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 30px;
+        font-size: 35px;
         text-align: start;
-        padding: 0 0 50px 0;
-        width: 100%;
+        padding: 0 0 50px 20px;
+        width: 90%;
     }
     
     .lista-cfmc{
@@ -2256,7 +2268,7 @@ footer{
         transform: scale(0.55);
         position: absolute;
         transform-origin: left;
-        margin: 700px 0 0 20px;
+        margin: 600px 0 0 20px;
         padding-left: 15px;
     }
     
@@ -2451,6 +2463,7 @@ footer{
         width: 100%;
         overflow: hidden;
         min-width: 0;
+        padding-bottom: 50px;
     }
     
     .cau-conteudo{
@@ -2480,6 +2493,7 @@ footer{
         height: auto;
         display: block;
         transform-origin: center;
+        transform: scale(1.25);
         }
     
     /* Footer */
@@ -2603,7 +2617,7 @@ footer{
         transform: scale(0.6);
         padding: 0px;
         left: 0;
-        margin-left: 46px;
+        margin-left: 36px;
         margin-top: 630px;
     }
     
@@ -2611,8 +2625,9 @@ footer{
         width: 100%;
         color: #212121;
         font-family: "Montserrat";
-        padding: 50px 25px 350px 25px;
+        padding: 50px 35px 350px 35px;
         line-height: 22px;
+        text-align: justify;
     }
     
     .texto-conteudo h1{
@@ -2759,7 +2774,7 @@ footer{
     
     .meus-servicos div{
         width: 32%;
-        padding: 20px 25px;
+        padding: 20px 27px;
         background-color: #FFFAF3;
         border: 1px solid;
         border-color: #F28705;
@@ -2795,7 +2810,7 @@ footer{
     
     .meus-servicos-2 div{
         width: 32%;
-        padding: 20px 25px;
+        padding: 20px 27px;
         background-color: #FFFAF3;
         border: 1px solid;
         border-color: #F28705;
@@ -2826,13 +2841,13 @@ footer{
     .c-f-m-c-{
         background-color: #FFFAF3;
         display: flex;
-        padding: 50px 0px;
+        padding: 30px 0px;
         width: 100%;
     }
     
     .div-cfmc{
-        width: 90%;
-        margin: 0px 0 300px 0;
+        width: 100%;
+        margin: 0px 0 380px 0;
     }
     
     .div-cfmc button{
@@ -2843,8 +2858,8 @@ footer{
         font-family: "Montserrat";
         font-size: 30px;
         text-align: start;
-        padding: 0 0 50px 0;
-        width: 100%;
+        padding: 0 0 0px 30px;
+        width: 90%;
     }
     
     .lista-cfmc{
@@ -2852,10 +2867,12 @@ footer{
         display: inline-flex;
         line-height: 23px;
         width: 100%;
+        font-size: 15px;
+        text-align: initial;
     }
     
     .lista-cfmc div{
-        margin-right: 35px;
+        margin-right: 30px;
     }
     
     .lista-cfmc h2{
@@ -2868,7 +2885,7 @@ footer{
     
     .lista-cfmc li{
         color: #FF7B1C;
-    
+        margin: 0;
         list-style-type: disc;
     }
     
@@ -2877,10 +2894,12 @@ footer{
         display: inline-flex;
         line-height: 23px;
         width: 100%;
+        font-size: 15px;
+        text-align: initial;
     }
     
     .lista-cfmc-2 div{
-        margin-right: 35px;
+        margin-right: 20px;
     }
     
     .lista-cfmc-2 h2{
@@ -2900,7 +2919,7 @@ footer{
         transform: scale(0.55);
         position: absolute;
         transform-origin: left;
-        margin: 730px 0 0 0;
+        margin: 630px 0 0 0;
         padding-left: 25px;
     }
     
@@ -2913,29 +2932,31 @@ footer{
     }
     
     .doguinho{
-        width: 30%;
+        width: 35%;
         margin: 0px 20px 50px 0px;
         font-family: "Montserrat";
         background-color: #F28705;
         border-radius: 20px;
-        padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.55);
         transform-origin: left;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .doguinho img{
-        padding: 0 13%;
+        padding: 0 0 0 30px ;
         transform: scale(0.7);
     }
     
     .doguinho h1{
         font-size: 40px;
         text-align: center;
+        padding: 0 0px 0 15px;
     }
     
     .doguinho h2{
         text-align: center;
+        display: inline-block;
     }
     
     .planeta{
@@ -2952,7 +2973,7 @@ footer{
     }
     
     .planeta img{
-        padding: 0 13%;
+        padding: 0 8%;
         transform: scale(0.7);
     }
     
@@ -2986,7 +3007,7 @@ footer{
     }
     
     .card-m-a h2{
-        width: 100px;
+        width: 100%;
         font-family: "Montserrat";
         display: inline;
         position: absolute;
@@ -3100,6 +3121,7 @@ footer{
         max-width: 100%;
         overflow: hidden;
         min-width: 0;
+        padding-bottom: 50px;
     }
     
     .cau-conteudo{
@@ -3121,12 +3143,13 @@ footer{
         font-family: "Roboto";
         color: #FFFFFF;
         line-height: 25px;
-        margin: 15px 28px 25px 0px;
+        margin: 15px 5px 25px 0px;
         font-size: 14px;
         text-align: justify;
     }
     
     .cau-img img{
+        transform: scale(1.25);
         padding: 0; /* Removendo padding lateral */
         max-width: 100%;
         height: auto;
