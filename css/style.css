@@ -4,622 +4,625 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-header{
-    width: 100%;
-    background-color: #d66700;
-    background-image: url(img/BG-LP-MARI.png);
-}
-
-
-/* Conteudo do Header*/
-.cabecalho{
-    display: flex;
-    width: 50%;
-}
-
-.img-cabecalho{
-    position: absolute;
-    right: 0;
-    transform-origin: right;
-    top: 8px;
-}
-
-.texto-cabecalho{
-    padding: 125px 85px 0 205px;
-    margin-bottom: 187px;
-    text-align: left;
-    color: white;
-    display: inline-block;
-}
-
-.texto-cabecalho h1{
-    font-size: 50px;
-    font-family: "Poppins";
-}
-
-.texto-cabecalho p{
-    font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 20px 0px;
-    padding: 0px 10px 0px 0px;
-}
-
-strong{
-    font-weight: bold;
-}
-
-.botao{
-    background-color: #008C24;
-    color: white;
-    border-radius: 15px;
-    padding: 15px 20%;
-    margin: 10px 0px;
-    font-family: "Poppins";
-    font-weight: bold;
-    border-color: #008C24;
-    border-style: solid;
-    transition: ease-in 0.2 all;
-    font-size: 18px;
-}
-
-.botao:hover{
-    transform: scale(1.2);
-    background-color: #F1F1F1;
-    color: #07B434;
-    border-style: solid;
-    border-color: #F1F1F1;
-}
-
-h1, h2{
-    font-weight: bold;
-}
-
-/* Primeira Section "Quem Sou Eu" */
-
-.conteudo{
-    background-color: #FFFAF3;
-    padding: 50px 0px;
-    display: flex;
-}
-
-.img-conteudo{
-    scale: 0.9;
-    padding: 0px 0px 0px 150px;
-}
-
-.texto-conteudo{
-    width: 32%;
-    color: #212121;
-    font-family: "Montserrat";
-    padding: 50px 0px 50px 250px;
-    line-height: 22px;
-}
-
-.texto-conteudo h1{
-    font-size: 48px;
-}
-
-.texto-conteudo p{
-    padding: 30px 0 0 0;
-}
-
-.texto-conteudo strong{
-    padding: 30px 0 0 0;
-}
-
-/* Segunda Section "Parallax" */
-
-.parallax {
-    background-color: #FFFAF3;
-    position: relative;
-    overflow: hidden;
-    height: 50vh;
-  }
-  
-.parallax-wrapper {
-    width: 100%;
-    height: 100%;
-    display: inline;
-}
-  
-.rellax {
-    position: absolute;
-}
-
-#img-01{
-    top: -200px; 
-    left: 200px;
-}
-
-#img-02{
-    top: -50px; 
-    left: 200px;
-}
-
-#img-03{
-    top: -80px; 
-    left: 300px;
-}
-
-#img-04{
-    top: 0px; 
-    right: 200px;
-}
-
-#img-05{
-    top: -100px; 
-    right: 300px;
-}
-
-#img-06{
-    top: -250px; 
-    right: 200px;
-}
-
-.texto-parallax {
-    background-color: #F28705;
-    color: #FFFAF3;
-    padding: 60px 20%;
-    width: 50%;
-    margin: 100px 5% 0 5%;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    border-radius: 15px;
-}
-
-/* Terceira Section "Minha forma de trabalho" */
-
-.forma-trabalho{
-    width: 100%;
-    background-color: #FFFAF3;
-    height: 605px;
-}
-
-.lista-forma-trabalho h1{
-    font-size: 40px;
-    color: #000000;
-    padding: 0 0 20px 0;
-    line-height: 50px;
-    width: 50%;
-}
-
-.lista-forma-trabalho ul{
-    padding: 5px 0 30px 25px;
-    line-height: 30px;
-}
-
-.lista-forma-trabalho{
-    width: 40%;
-    color: #212121;
-    font-family: "Montserrat";
-    line-height: 22px;
-    margin: 0 100px 0 150px;
-}
-
-.circulo-laranja{
-    background-color: #F28705;
-    padding: 300px 300px;
-    position: absolute;
-    border-radius: 50%;
-    right: 60px;
-}
-
-.img-forma-trabalho{
-    position: absolute;
-    right: 10px;
-}
-
-/* Quarta Section "Meus Serviços" */
-
-.img-ms{
-    margin: 100px 0 0 265px;
-    position: absolute;
-}
-
-.titulo-ms{
-    font-family: "Montserrat";
-    font-size: 38px;
-    display: inline-block;
-    margin: 115px 0 0 345px;
-}
-
-.meus-servicos{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Montserrat";
-    margin: 50px 100px 20px 250px;
-}
-
-.meus-servicos div{
-    width: 14%;
-    margin: 20px;
-    padding: 40px 40px 55px 40px;
-    background-color: #FFFAF3;
-    border: 1px solid;
-    border-color: #F28705;
-    border-radius: 15px;
-    text-align: start;
-    list-style-type: disc;
-}
-
-.meus-servicos li{
-    color: #FF7B1C;
-}
-
-.meus-servicos div h2{
-    color: #212121;
-
-    font-size: 18px;
-    line-height: 20px;
-    margin: 0 0 5px 0;
-}
-
-.meus-servicos div p{
-    font-size: 15px;
-    color: #212121;
-    line-height: 20px;
-}
-
-.meus-servicos-2{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: "Montserrat";
-    margin: 20px 100px 200px 250px;
-}
-
-.meus-servicos-2 div{
-    width: 14%;
-    margin: 20px;
-    padding: 40px 40px 55px 40px;
-    background-color: #FFFAF3;
-    border: 1px solid;
-    border-color: #F28705;
-    border-radius: 15px;
-    text-align: start;
-    list-style-type: disc;
-}
-
-.meus-servicos-2 li{
-    color: #FF7B1C;
-}
-
-.meus-servicos-2 div h2{
-    color: #212121;
-    font-size: 18px;
-    line-height: 20px;
-    margin: 0 0 5px 0;
-}
-
-.meus-servicos-2 div p{
-    font-size: 15px;
-    color: #212121;
-    line-height: 20px;
-}
-
-/* Quinta Section "Como Funciona a minha Consultoria" */
-
-.c-f-m-c-{
-    background-color: #FFFAF3;
-    display: flex;
-    padding: 150px 100px;
-}
-
-.div-cfmc{
-    padding: 15px;
-    margin: 0 0 0 100px;
-}
-
-.div-cfmc button{
-    display: block;
-}
-
-.div-cfmc a{
-    text-decoration: none;
-}
-
-.c-f-m-c- h1{
-    font-family: "Montserrat";
-    font-size: 60px;
-    text-align: start;
-    padding: 0 0 40px 0;
-    width: 90%;
-}
-
-.lista-cfmc{
-    font-family: "Montserrat";
-    display: inline-flex;
-    line-height: 23px;
-    margin: 30px;
-    width: 550px;
-}
-
-.lista-cfmc div{
-    margin-right: 50px;
-}
-
-.lista-cfmc h2{
-    color: #222222;
-}
-
-.lista-cfmc p{
-    color: #212121;
-}
-
-.lista-cfmc li{
-    color: #FF7B1C;
-
-    list-style-type: disc;
-}
-
-.lista-cfmc-2{
-    font-family: "Montserrat";
-    display: inline-flex;
-    line-height: 23px;
-    margin: 30px;
-    width: 550px;
-}
-
-.lista-cfmc-2 div{
-    margin-right: 40px;
-}
-
-.lista-cfmc-2 h2{
-    color: #222222;
-}
-
-.lista-cfmc-2 p{
-    color: #212121;
-}
-
-.lista-cfmc-2 li{
-    color: #FF7B1C;
-    list-style-type: disc;
-}
-
-/* Sexta Section "Animação JS" */
-
-.animacao-js{
-    background-color: #FFFAF3;
-    display: flex;
-    padding: 0px 150px;
-}
-
-.doguinho{
-    width: 39%;
-    margin: 0px 20px 100px 50px;
-    font-family: "Montserrat";
-    background-color: #F28705;
-    border-radius: 20px;
-    padding: 50px 100px 100px 100px;
-    font-size: 25px;
-}
-
-.doguinho img{
-    padding: 0 40%;
-}
-
-.doguinho h1{
-    font-size: 60px;
-    text-align: center;
-}
-
-.doguinho h2{
-    text-align: center;
-}
-
-.planeta{
-    width: 39%;
-    margin: 0px 50px 100px 20px;
-    font-family: "Montserrat";
-    background-color: #F28705;
-    border-radius: 20px;
-    padding: 50px 100px 100px 100px;
-    font-size: 25px;
-}
-
-.planeta img{
-    padding: 0 39.5%;
-}
-
-.planeta h1{
-    font-size: 60px;
-    text-align: center;
-}
-
-.planeta h2{
-    text-align: center;
-}
-
-/* Setima Section "Modalidades de Atendimento" */
-
-.mod-atendimento{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.mod-atendimento h1{
-    font-family: "Montserrat";
-    font-size: 46px;
-    width: 30%;
-    margin: 200px 120px;
-}
-
-.card-m-a{
-    width: 12%;
-    margin: 150px 50px;
-    line-height: 22px;
-}
-
-.card-m-a h2{
-    width: 100px;
-    font-family: "Montserrat";
-    display: inline;
-    position: absolute;
-    margin: 10px 5px;
-}
-
-.card-m-a p{
-    font-family: "Roboto";
-    color: #212121;
-}
-
-/* Oitava Section "Depoimentos" */
-
-.depoimentos{
-    font-family: "Montserrat";
-    background-color: #FFFAF3;
-    line-height: 45px;
-}
-
-.dep-1{
-    margin: 0px 90px;
-    padding: 50px 0px;
-}
-
-.dep-2{
-    margin: 0px 50px;
-    padding: 25px 0px 50px 0px;
-}
-
-.depoimentos h1{
-    font-size: 48px;
-    margin-top: 50px;
-    margin-left: 60px;
-}
-
-.depoimentos p{
-    color: #6E6E6E;
-    margin-left: 60px;
-}
-
-/* Carrosel */
-
-.container swiper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.card-wrapper{
-    max-width: 1100px;
-    margin: 5% 20% 10%;
-    padding: 20px 10px;
-    overflow: hidden;
-    scale: 1.4;
-}
-
-.card-list .card-item{
-    list-style: none;
-}
-
-.card-list .card-item .card-link{
-    user-select: none;
-    display: block;
-    background: #FFF;
-    padding: 18px;
-    border-radius: 12px;
-    text-decoration: none;
-    border: 2px solid transparent;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
-    transition: 0.2s ease;
-}
-
-.card-list .card-item .card-link{
-    cursor: grabbing;
-}
-
-.card-list .card-item .card-link:hover{
-    border-color: #F28705;
-}
-
-.card-list .card-link .card-image{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.container .swiper-pagination-bullet{
-    height: 13px;
-    width: 13px;
-    opacity: 0.5;
-    background: #F28705;
-}
-
-.card-wrapper .swiper-pagination-bullet:active{
-    opacity: 1;
-}
-
-.card-wrapper swiper-slide-button{
-    color: #F28705;
-    margin-top: -35px;
-}
-
-/* Nona Section "Acredito que cada animal é unico" */
-
-.cada-animal-unico{
-    background-color: #F28705;
-    display: flex;
-}
-
-.cau-conteudo{
-    width: 50%;
-    margin: 0px 200px 0px 200px;
-    padding: 120px 0px;
-}
-
-.cau-conteudo h1{
-    font-family: "Montserrat";
-    font-size: 68px;
-    color: #FFFFFF;
-    line-height: 75px;
-    margin: 0px 0px 30px 0;
-}
-
-.cau-conteudo p{
-    font-family: "Roboto";
-    color: #FFFFFF;
-    line-height: 40px;
-    font-size: 25px;
-    margin: 15px 28px 15px 0px;
-}
-
-.cau-img{
-    padding: 9% 10% 5% 0%;
-    transform: scale(1.10);
-}
-
-.cada-animal-unico button{
-    transform: scale(1.5);
-    padding: 20px 50px;
-    margin: 50px 0 0 100px;
-}
-
-/* Footer */
-
-footer{
-    display: flex;
-}
-
-.logo-footer{
-    margin: 70px 200px 70px 190px;
-}
-
-.div-footer{
-    margin: 80px 100px 80px 450px;
-}
-
-.icons-footer{
-    background-color: #F28705;
-    display: inline-block;
-    border-radius: 60%;
-}
-
-.img-footer{
-    padding: 11px 5px;
-    margin: 0px 10px;
+
+@media screen and (max-width: 1920px) {
+    header{
+        width: 100%;
+        background-color: #d66700;
+        background-image: url(img/BG-LP-MARI.png);
+    }
+
+
+    /* Conteudo do Header*/
+    .cabecalho{
+        display: flex;
+        width: 50%;
+    }
+
+    .img-cabecalho{
+        position: absolute;
+        right: 0;
+        transform-origin: right;
+        top: 8px;
+    }
+
+    .texto-cabecalho{
+        padding: 125px 85px 0 205px;
+        margin-bottom: 187px;
+        text-align: left;
+        color: white;
+        display: inline-block;
+    }
+
+    .texto-cabecalho h1{
+        font-size: 50px;
+        font-family: "Poppins";
+    }
+
+    .texto-cabecalho p{
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 20px 0px;
+        padding: 0px 10px 0px 0px;
+    }
+
+    strong{
+        font-weight: bold;
+    }
+
+    .botao{
+        background-color: #008C24;
+        color: white;
+        border-radius: 15px;
+        padding: 15px 20%;
+        margin: 10px 0px;
+        font-family: "Poppins";
+        font-weight: bold;
+        border-color: #008C24;
+        border-style: solid;
+        transition: ease-in 0.2 all;
+        font-size: 18px;
+    }
+
+    .botao:hover{
+        transform: scale(1.2);
+        background-color: #F1F1F1;
+        color: #07B434;
+        border-style: solid;
+        border-color: #F1F1F1;
+    }
+
+    h1, h2{
+        font-weight: bold;
+    }
+
+    /* Primeira Section "Quem Sou Eu" */
+
+    .conteudo{
+        background-color: #FFFAF3;
+        padding: 50px 0px;
+        display: flex;
+    }
+
+    .img-conteudo{
+        scale: 0.9;
+        padding: 0px 0px 0px 150px;
+    }
+
+    .texto-conteudo{
+        width: 32%;
+        color: #212121;
+        font-family: "Montserrat";
+        padding: 50px 0px 50px 250px;
+        line-height: 22px;
+    }
+
+    .texto-conteudo h1{
+        font-size: 48px;
+    }
+
+    .texto-conteudo p{
+        padding: 30px 0 0 0;
+    }
+
+    .texto-conteudo strong{
+        padding: 30px 0 0 0;
+    }
+
+    /* Segunda Section "Parallax" */
+
+    .parallax {
+        background-color: #FFFAF3;
+        position: relative;
+        overflow: hidden;
+        height: 50vh;
+    }
+    
+    .parallax-wrapper {
+        width: 100%;
+        height: 100%;
+        display: inline;
+    }
+    
+    .rellax {
+        position: absolute;
+    }
+
+    #img-01{
+        top: -200px; 
+        left: 200px;
+    }
+
+    #img-02{
+        top: -50px; 
+        left: 200px;
+    }
+
+    #img-03{
+        top: -80px; 
+        left: 300px;
+    }
+
+    #img-04{
+        top: 0px; 
+        right: 200px;
+    }
+
+    #img-05{
+        top: -100px; 
+        right: 300px;
+    }
+
+    #img-06{
+        top: -250px; 
+        right: 200px;
+    }
+
+    .texto-parallax {
+        background-color: #F28705;
+        color: #FFFAF3;
+        padding: 60px 20%;
+        width: 50%;
+        margin: 100px 5% 0 5%;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+
+    /* Terceira Section "Minha forma de trabalho" */
+
+    .forma-trabalho{
+        width: 100%;
+        background-color: #FFFAF3;
+        height: 605px;
+    }
+
+    .lista-forma-trabalho h1{
+        font-size: 40px;
+        color: #000000;
+        padding: 0 0 20px 0;
+        line-height: 50px;
+        width: 50%;
+    }
+
+    .lista-forma-trabalho ul{
+        padding: 5px 0 30px 25px;
+        line-height: 30px;
+    }
+
+    .lista-forma-trabalho{
+        width: 40%;
+        color: #212121;
+        font-family: "Montserrat";
+        line-height: 22px;
+        margin: 0 100px 0 150px;
+    }
+
+    .circulo-laranja{
+        background-color: #F28705;
+        padding: 300px 300px;
+        position: absolute;
+        border-radius: 50%;
+        right: 60px;
+    }
+
+    .img-forma-trabalho{
+        position: absolute;
+        right: 10px;
+    }
+
+    /* Quarta Section "Meus Serviços" */
+
+    .img-ms{
+        margin: 100px 0 0 265px;
+        position: absolute;
+    }
+
+    .titulo-ms{
+        font-family: "Montserrat";
+        font-size: 38px;
+        display: inline-block;
+        margin: 115px 0 0 345px;
+    }
+
+    .meus-servicos{
+        display: flex;
+        flex-wrap: wrap;
+        font-family: "Montserrat";
+        margin: 50px 100px 20px 250px;
+    }
+
+    .meus-servicos div{
+        width: 14%;
+        margin: 20px;
+        padding: 40px 40px 55px 40px;
+        background-color: #FFFAF3;
+        border: 1px solid;
+        border-color: #F28705;
+        border-radius: 15px;
+        text-align: start;
+        list-style-type: disc;
+    }
+
+    .meus-servicos li{
+        color: #FF7B1C;
+    }
+
+    .meus-servicos div h2{
+        color: #212121;
+
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 0 5px 0;
+    }
+
+    .meus-servicos div p{
+        font-size: 15px;
+        color: #212121;
+        line-height: 20px;
+    }
+
+    .meus-servicos-2{
+        display: flex;
+        flex-wrap: wrap;
+        font-family: "Montserrat";
+        margin: 20px 100px 200px 250px;
+    }
+
+    .meus-servicos-2 div{
+        width: 14%;
+        margin: 20px;
+        padding: 40px 40px 55px 40px;
+        background-color: #FFFAF3;
+        border: 1px solid;
+        border-color: #F28705;
+        border-radius: 15px;
+        text-align: start;
+        list-style-type: disc;
+    }
+
+    .meus-servicos-2 li{
+        color: #FF7B1C;
+    }
+
+    .meus-servicos-2 div h2{
+        color: #212121;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 0 5px 0;
+    }
+
+    .meus-servicos-2 div p{
+        font-size: 15px;
+        color: #212121;
+        line-height: 20px;
+    }
+
+    /* Quinta Section "Como Funciona a minha Consultoria" */
+
+    .c-f-m-c-{
+        background-color: #FFFAF3;
+        display: flex;
+        padding: 150px 100px;
+    }
+
+    .div-cfmc{
+        padding: 15px;
+        margin: 0 0 0 100px;
+    }
+
+    .div-cfmc button{
+        display: block;
+    }
+
+    .div-cfmc a{
+        text-decoration: none;
+    }
+
+    .c-f-m-c- h1{
+        font-family: "Montserrat";
+        font-size: 60px;
+        text-align: start;
+        padding: 0 0 40px 0;
+        width: 90%;
+    }
+
+    .lista-cfmc{
+        font-family: "Montserrat";
+        display: inline-flex;
+        line-height: 23px;
+        margin: 30px;
+        width: 550px;
+    }
+
+    .lista-cfmc div{
+        margin-right: 50px;
+    }
+
+    .lista-cfmc h2{
+        color: #222222;
+    }
+
+    .lista-cfmc p{
+        color: #212121;
+    }
+
+    .lista-cfmc li{
+        color: #FF7B1C;
+
+        list-style-type: disc;
+    }
+
+    .lista-cfmc-2{
+        font-family: "Montserrat";
+        display: inline-flex;
+        line-height: 23px;
+        margin: 30px;
+        width: 550px;
+    }
+
+    .lista-cfmc-2 div{
+        margin-right: 40px;
+    }
+
+    .lista-cfmc-2 h2{
+        color: #222222;
+    }
+
+    .lista-cfmc-2 p{
+        color: #212121;
+    }
+
+    .lista-cfmc-2 li{
+        color: #FF7B1C;
+        list-style-type: disc;
+    }
+
+    /* Sexta Section "Animação JS" */
+
+    .animacao-js{
+        background-color: #FFFAF3;
+        display: flex;
+        padding: 0px 150px;
+    }
+
+    .doguinho{
+        width: 39%;
+        margin: 0px 20px 100px 50px;
+        font-family: "Montserrat";
+        background-color: #F28705;
+        border-radius: 20px;
+        padding: 50px 100px 100px 100px;
+        font-size: 25px;
+    }
+
+    .doguinho img{
+        padding: 0 40%;
+    }
+
+    .doguinho h1{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .doguinho h2{
+        text-align: center;
+    }
+
+    .planeta{
+        width: 39%;
+        margin: 0px 50px 100px 20px;
+        font-family: "Montserrat";
+        background-color: #F28705;
+        border-radius: 20px;
+        padding: 50px 100px 100px 100px;
+        font-size: 25px;
+    }
+
+    .planeta img{
+        padding: 0 39.5%;
+    }
+
+    .planeta h1{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .planeta h2{
+        text-align: center;
+    }
+
+    /* Setima Section "Modalidades de Atendimento" */
+
+    .mod-atendimento{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mod-atendimento h1{
+        font-family: "Montserrat";
+        font-size: 46px;
+        width: 30%;
+        margin: 200px 120px;
+    }
+
+    .card-m-a{
+        width: 12%;
+        margin: 150px 50px;
+        line-height: 22px;
+    }
+
+    .card-m-a h2{
+        width: 100px;
+        font-family: "Montserrat";
+        display: inline;
+        position: absolute;
+        margin: 10px 5px;
+    }
+
+    .card-m-a p{
+        font-family: "Roboto";
+        color: #212121;
+    }
+
+    /* Oitava Section "Depoimentos" */
+
+    .depoimentos{
+        font-family: "Montserrat";
+        background-color: #FFFAF3;
+        line-height: 45px;
+    }
+
+    .dep-1{
+        margin: 0px 90px;
+        padding: 50px 0px;
+    }
+
+    .dep-2{
+        margin: 0px 50px;
+        padding: 25px 0px 50px 0px;
+    }
+
+    .depoimentos h1{
+        font-size: 48px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .depoimentos p{
+        color: #6E6E6E;
+        margin-left: 60px;
+    }
+
+    /* Carrosel */
+
+    .container swiper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .card-wrapper{
+        max-width: 1100px;
+        margin: 5% 20% 10%;
+        padding: 20px 10px;
+        overflow: hidden;
+        scale: 1.4;
+    }
+
+    .card-list .card-item{
+        list-style: none;
+    }
+
+    .card-list .card-item .card-link{
+        user-select: none;
+        display: block;
+        background: #FFF;
+        padding: 18px;
+        border-radius: 12px;
+        text-decoration: none;
+        border: 2px solid transparent;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+        transition: 0.2s ease;
+    }
+
+    .card-list .card-item .card-link{
+        cursor: grabbing;
+    }
+
+    .card-list .card-item .card-link:hover{
+        border-color: #F28705;
+    }
+
+    .card-list .card-link .card-image{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .container .swiper-pagination-bullet{
+        height: 13px;
+        width: 13px;
+        opacity: 0.5;
+        background: #F28705;
+    }
+
+    .card-wrapper .swiper-pagination-bullet:active{
+        opacity: 1;
+    }
+
+    .card-wrapper swiper-slide-button{
+        color: #F28705;
+        margin-top: -35px;
+    }
+
+    /* Nona Section "Acredito que cada animal é unico" */
+
+    .cada-animal-unico{
+        background-color: #F28705;
+        display: flex;
+    }
+
+    .cau-conteudo{
+        width: 50%;
+        margin: 0px 200px 0px 200px;
+        padding: 120px 0px;
+    }
+
+    .cau-conteudo h1{
+        font-family: "Montserrat";
+        font-size: 68px;
+        color: #FFFFFF;
+        line-height: 75px;
+        margin: 0px 0px 30px 0;
+    }
+
+    .cau-conteudo p{
+        font-family: "Roboto";
+        color: #FFFFFF;
+        line-height: 40px;
+        font-size: 25px;
+        margin: 15px 28px 15px 0px;
+    }
+
+    .cau-img{
+        padding: 9% 10% 5% 0%;
+        transform: scale(1.10);
+    }
+
+    .cada-animal-unico button{
+        transform: scale(1.5);
+        padding: 20px 50px;
+        margin: 50px 0 0 100px;
+    }
+
+    /* Footer */
+
+    footer{
+        display: flex;
+    }
+
+    .logo-footer{
+        margin: 70px 200px 70px 190px;
+    }
+
+    .div-footer{
+        margin: 80px 100px 80px 450px;
+    }
+
+    .icons-footer{
+        background-color: #F28705;
+        display: inline-block;
+        border-radius: 60%;
+    }
+
+    .img-footer{
+        padding: 11px 5px;
+        margin: 0px 10px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -2384,11 +2387,13 @@ footer{
         font-size: 32px;
         margin-top: 40px;
         margin-bottom: 20px;
+        margin-left: 0;
     }
     
     .depoimentos p{
         color: #6E6E6E;
         font-size: 14px;
+        margin-left: 0;
     }
     
     /* Carrosel */
@@ -2484,7 +2489,9 @@ footer{
         font-family: "Roboto";
         color: #FFFFFF;
         line-height: 25px;
+        font-size: 17px;
         margin: 15px 28px 15px 0px;
+        text-align: justify;
     }
     
     .cau-img img{
@@ -2493,9 +2500,17 @@ footer{
         height: auto;
         display: block;
         transform-origin: center;
-        transform: scale(1.25);
-        }
-    
+        transform: scale(1.10);
+    }
+
+    .cada-animal-unico button{
+        transform: scale(1);
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     /* Footer */
     
     footer{
@@ -2618,20 +2633,23 @@ footer{
         padding: 0px;
         left: 0;
         margin-left: 36px;
-        margin-top: 630px;
+        margin-top: 660px;
     }
     
     .texto-conteudo{
-        width: 100%;
+        width: 90%;
         color: #212121;
         font-family: "Montserrat";
-        padding: 50px 35px 350px 35px;
+        padding: 50px 35px 370px 35px;
         line-height: 22px;
         text-align: justify;
     }
     
     .texto-conteudo h1{
         font-size: 44px;
+        text-align: initial;
+        width: 100%;
+        margin-left: 0;
     }
     
     .texto-conteudo p{
@@ -3042,11 +3060,13 @@ footer{
         font-size: 32px;
         margin-top: 40px;
         margin-bottom: 20px;
+        margin-left: 0;
     }
     
     .depoimentos p{
         color: #6E6E6E;
         font-size: 14px;
+        margin-left: 0;
     }
     
     /* Carrosel */
@@ -3149,7 +3169,7 @@ footer{
     }
     
     .cau-img img{
-        transform: scale(1.25);
+        transform: scale(1.10);
         padding: 0; /* Removendo padding lateral */
         max-width: 100%;
         height: auto;
@@ -3161,6 +3181,7 @@ footer{
         font-size: 15px;
         padding: 20px 25px;
         margin: 0 7%;
+        transform: scale(1);
     }
     
     /* Footer */
