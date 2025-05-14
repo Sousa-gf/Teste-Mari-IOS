@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+}
 
 @media screen and (max-width: 1920px) {
     header{
@@ -856,7 +861,7 @@
 
     .meus-servicos div{
         width: 14%;
-        margin: 20px;
+        margin: 15px;
         padding: 40px 40px 55px 40px;
         background-color: #FFFAF3;
         border: 1px solid;
@@ -893,7 +898,7 @@
 
     .meus-servicos-2 div{
         width: 14%;
-        margin: 20px;
+        margin: 15px;
         padding: 40px 40px 55px 40px;
         background-color: #FFFAF3;
         border: 1px solid;
@@ -943,10 +948,10 @@
 
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 60px;
+        font-size: 40px;
         text-align: start;
         padding: 0 0 40px 0;
-        width: 90%;
+        width: 70%;
     }
 
     .lista-cfmc{
@@ -1194,7 +1199,7 @@
 
     .cau-conteudo h1{
         font-family: "Montserrat";
-        font-size: 50px;
+        font-size: 40px;
         color: #FFFFFF;
         line-height: 55px;
         margin: 0px 0px 30px 0;
@@ -1214,9 +1219,9 @@
     }
 
     .cada-animal-unico button{
-        transform: scale(1.5);
+        transform: scale(1.2);
         padding: 20px 50px;
-        margin: 50px 0 0 100px;
+        margin: 50px 0 0 30px;
     }
 
     /* Footer */
@@ -1226,7 +1231,7 @@
     }
 
     .logo-footer{
-        margin: 70px 200px 70px 190px;
+        margin: 70px 0px 70px 190px;
     }
 
     .div-footer{
@@ -1247,12 +1252,6 @@
 
 
 @media screen and (max-width: 1024px) {
-    html, body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
-    }
-
     header{
         width: 100%;
         background-color: #d66700;
@@ -1973,7 +1972,7 @@
     }
     
     .texto-conteudo h1{
-        font-size: 48px;
+        font-size: 40px;
     }
     
     .texto-conteudo p{
@@ -2099,7 +2098,7 @@
     
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 38px;
+        font-size: 40px;
         display: inline-block;
         margin: 65px 0 0 115px;
     }
@@ -2185,7 +2184,7 @@
 
     .img-cfmc{
         position: absolute;
-        margin: 750px 15% 0 15%;
+        margin: 650px 15% 0 15%;
     }
     
     .div-cfmc{
@@ -2199,7 +2198,7 @@
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 60px;
+        font-size: 40px;
         text-align: start;
         padding: 0 0 40px 0;
         width: 80%;
@@ -2321,7 +2320,7 @@
     
     .mod-atendimento h1{
         font-family: "Montserrat";
-        font-size: 25px;
+        font-size: 27px;
         width: 30%;
         margin: 150px 20px;
     }
@@ -2354,7 +2353,7 @@
     }
     
     .dep-1{
-        margin: 0px 90px;
+        margin: 0px 10px;
         padding: 50px 0px;
     }
     
@@ -2364,7 +2363,7 @@
     }
     
     .depoimentos h1{
-        font-size: 48px;
+        font-size: 40px;
         margin-top: 50px;
     }
     
@@ -2446,13 +2445,13 @@
     
     .cau-conteudo{
         width: 100%;
-        margin: 0px 100px;
+        margin: 0px 100px 0 130px;
         padding: 50px 0px;
     }
     
     .cau-conteudo h1{
         font-family: "Montserrat";
-        font-size: 48px;
+        font-size: 45px;
         color: #FFFFFF;
         line-height: 55px;
         margin: 15px 0px;
@@ -2467,6 +2466,7 @@
     
     .cau-img{
         padding: 20px 18%;
+        margin-bottom: 30px;
     }
     
     /* Footer */
@@ -2601,7 +2601,7 @@
     }
     
     .texto-conteudo h1{
-        font-size: 44px;
+        font-size: 32px;
         margin-left: 0px;
     }
     
@@ -2685,7 +2685,7 @@
     }
     
     .lista-forma-trabalho h1{
-        font-size: 30px;
+        font-size: 32px;
         color: #000000;
         padding: 0 0 20px 0;
         line-height: 30px;
@@ -2735,7 +2735,7 @@
     
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 25px;
+        font-size: 32px;
         display: inline-block;
         margin: 115px 0 0 75px;
     }
@@ -2833,7 +2833,7 @@
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 35px;
+        font-size: 32px;
         text-align: start;
         padding: 0 0 50px 20px;
         width: 90%;
@@ -2962,7 +2962,7 @@
     
     .mod-atendimento h1{
         font-family: "Montserrat";
-        font-size: 25px;
+        font-size: 32px;
         width: 100%;
         margin: 50px 25px 0 60px;
         transform-origin: center;
@@ -3268,7 +3268,7 @@
     }
     
     .texto-conteudo h1{
-        font-size: 44px;
+        font-size: 32px;
         text-align: initial;
         width: 100%;
         margin-left: 0;
@@ -3399,7 +3399,7 @@
     
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 25px;
+        font-size: 30px;
         display: inline-block;
         margin: 115px 0 0 95px;
     }
