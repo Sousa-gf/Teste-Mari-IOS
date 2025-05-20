@@ -65,12 +65,11 @@ html, body {
         font-weight: bold;
         border-color: #008C24;
         border-style: solid;
-        transition: ease-in 0.2 all;
+        transition: ease-in 0.3s all;
         font-size: 18px;
     }
 
     .botao:hover{
-        transform: scale(1.2);
         background-color: #F1F1F1;
         color: #07B434;
         border-style: solid;
@@ -603,9 +602,8 @@ html, body {
     }
 
     .cada-animal-unico button{
-        transform: scale(1.5);
         padding: 20px 50px;
-        margin: 50px 0 0 100px;
+        margin: 0px 0 0 40px;
     }
 
     /* Footer */
@@ -1220,8 +1218,7 @@ html, body {
     }
 
     .cada-animal-unico button{
-        transform: scale(1);
-        padding: 40px 40px;
+        padding: 20px 40px;
         margin: 50px 0 0 0px;
     }
 
