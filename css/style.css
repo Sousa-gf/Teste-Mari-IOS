@@ -10,7 +10,6 @@ html, body {
     overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
 }
 
-@media screen and (max-width: 1920px) {
     header{
         width: 100%;
         background-color: #d66700;
@@ -25,7 +24,7 @@ html, body {
     }
 
     .img-cabecalho{
-        position: absolute;
+        position: relative;
         right: 0;
         transform-origin: right;
         top: 8px;
@@ -37,6 +36,7 @@ html, body {
         text-align: left;
         color: white;
         display: inline-block;
+        margin-right: 300px;
     }
 
     .texto-cabecalho h1{
@@ -103,7 +103,7 @@ html, body {
     }
 
     .texto-conteudo h1{
-        font-size: 48px;
+        font-size: 35px;
     }
 
     .texto-conteudo p{
@@ -185,7 +185,7 @@ html, body {
     }
 
     .lista-forma-trabalho h1{
-        font-size: 40px;
+        font-size: 35px;
         color: #000000;
         padding: 0 0 20px 0;
         line-height: 50px;
@@ -227,7 +227,7 @@ html, body {
 
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 38px;
+        font-size: 35px;
         display: inline-block;
         margin: 115px 0 0 345px;
     }
@@ -310,12 +310,16 @@ html, body {
     .c-f-m-c-{
         background-color: #FFFAF3;
         display: flex;
-        padding: 150px 100px;
+        padding: 150px 0px;
     }
 
     .div-cfmc{
         padding: 15px;
-        margin: 0 0 0 100px;
+        margin: 0 0 0 0px;
+    }
+
+    .img-cfmc{
+        margin: 0 200px 0 200px;
     }
 
     .div-cfmc button{
@@ -328,10 +332,10 @@ html, body {
 
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 60px;
+        font-size: 35px;
         text-align: start;
-        padding: 0 0 40px 0;
-        width: 90%;
+        padding: 0 0 40px 20px;
+        width: 50%;
     }
 
     .lista-cfmc{
@@ -448,9 +452,9 @@ html, body {
 
     .mod-atendimento h1{
         font-family: "Montserrat";
-        font-size: 46px;
-        width: 30%;
-        margin: 200px 120px;
+        font-size: 35px;
+        width: 20%;
+        margin: 200px 170px;
     }
 
     .card-m-a{
@@ -491,14 +495,14 @@ html, body {
     }
 
     .depoimentos h1{
-        font-size: 48px;
+        font-size: 35px;
         margin-top: 50px;
-        margin-left: 60px;
+        margin-left: 90px;
     }
 
     .depoimentos p{
         color: #6E6E6E;
-        margin-left: 60px;
+        margin-left: 90px;
     }
 
     /* Carrosel */
@@ -572,25 +576,25 @@ html, body {
     }
 
     .cau-conteudo{
-        width: 50%;
-        margin: 0px 200px 0px 200px;
+        width: 30%;
+        margin: 50px 300px;
         padding: 120px 0px;
     }
 
     .cau-conteudo h1{
         font-family: "Montserrat";
-        font-size: 68px;
+        font-size: 40px;
         color: #FFFFFF;
-        line-height: 75px;
+        line-height: 55px;
         margin: 0px 0px 30px 0;
     }
 
     .cau-conteudo p{
         font-family: "Roboto";
         color: #FFFFFF;
-        line-height: 40px;
-        font-size: 25px;
-        margin: 15px 28px 15px 0px;
+        line-height: 30px;
+        font-size: 18px;
+        margin: 15px 28px 55px 0px;
     }
 
     .cau-img{
@@ -628,7 +632,6 @@ html, body {
         padding: 11px 5px;
         margin: 0px 10px;
     }
-}
 
 @media screen and (max-width: 1440px) {
     header{
@@ -641,22 +644,16 @@ html, body {
     /* Conteudo do Header*/
     .cabecalho{
         display: flex;
-        width: 50%;
+        width: 100%;
     }
-
-    .img-cabecalho{
-        position: absolute;
-        right: 0;
-        transform-origin: right;
-        top: 8px;
-    }
-
+    
     .texto-cabecalho{
-        padding: 125px 85px 0 205px;
+        padding: 125px 0px 0 160px;
         margin-bottom: 187px;
         text-align: left;
         color: white;
         display: inline-block;
+        margin-right: 0;
     }
 
     .texto-cabecalho h1{
@@ -723,7 +720,7 @@ html, body {
     }
 
     .texto-conteudo h1{
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .texto-conteudo p{
@@ -847,7 +844,7 @@ html, body {
 
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 38px;
+        font-size: 40px;
         display: inline-block;
         margin: 115px 0 0 345px;
     }
@@ -930,12 +927,16 @@ html, body {
     .c-f-m-c-{
         background-color: #FFFAF3;
         display: flex;
-        padding: 150px 100px;
+        padding: 150px 20px;
     }
 
     .div-cfmc{
         padding: 15px;
         margin: 0 0 0 100px;
+    }
+
+    .img-cfmc{
+        margin: 0;
     }
 
     .div-cfmc button{
@@ -1068,7 +1069,7 @@ html, body {
 
     .mod-atendimento h1{
         font-family: "Montserrat";
-        font-size: 46px;
+        font-size: 40px;
         width: 30%;
         margin: 200px 120px;
     }
@@ -1111,7 +1112,7 @@ html, body {
     }
 
     .depoimentos h1{
-        font-size: 48px;
+        font-size: 40px;
         margin-top: 50px;
         margin-left: 60px;
     }
@@ -1201,7 +1202,7 @@ html, body {
         font-family: "Montserrat";
         font-size: 40px;
         color: #FFFFFF;
-        line-height: 55px;
+        line-height: 45px;
         margin: 0px 0px 30px 0;
     }
 
@@ -1209,7 +1210,7 @@ html, body {
         font-family: "Roboto";
         color: #FFFFFF;
         line-height: 25px;
-        font-size: 20px;
+        font-size: 18px;
         margin: 15px 28px 15px 0px;
     }
 
@@ -1219,9 +1220,9 @@ html, body {
     }
 
     .cada-animal-unico button{
-        transform: scale(1.2);
-        padding: 20px 50px;
-        margin: 50px 0 0 30px;
+        transform: scale(1);
+        padding: 40px 40px;
+        margin: 50px 0 0 0px;
     }
 
     /* Footer */
@@ -1262,22 +1263,23 @@ html, body {
     /* Conteudo do Header*/
     .cabecalho{
         display: flex;
+        width: 100%;
+        height: 582px;
     }
     
     .img-cabecalho{
         margin-top: 18px;
-        position: absolute;
-        right: 0;
         transform: scale(0.7);
-        transform-origin: right;
+        position: sticky;
     }
     
     .texto-cabecalho{
-        margin-bottom: 151px;
+        margin-bottom: 0px;
         padding: 130px 0px 0px 105px;
         text-align: left;
         color: white;
         display: inline-block;
+        margin-right: 0;
     }
     
     .texto-cabecalho h1{
@@ -1346,7 +1348,7 @@ html, body {
     }
     
     .texto-conteudo h1{
-        font-size: 48px;
+        font-size: 35px;
     }
     
     .texto-conteudo p{
@@ -1363,7 +1365,7 @@ html, body {
         background-color: #FFFAF3;
         position: relative;
         overflow: hidden;
-        height: 50vh;
+        height: 30vh;
       }
       
     .parallax-wrapper {
@@ -1427,11 +1429,11 @@ html, body {
     }
     
     .lista-forma-trabalho h1{
-        font-size: 40px;
+        font-size: 35px;
         color: #000000;
         padding: 30px 0 20px 0;
         line-height: 50px;
-        width: 100%;
+        width: 50%;
     }
     
     .lista-forma-trabalho ul{
@@ -1473,7 +1475,7 @@ html, body {
     
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 38px;
+        font-size: 35px;
         display: inline-block;
         margin: 115px 0 0 125px;
     }
@@ -1577,10 +1579,10 @@ html, body {
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 40px;
+        font-size: 35px;
         text-align: start;
         padding: 20px 0 0px 22px;
-        width: 80%;
+        width: 70%;
     }
     
     .lista-cfmc{
@@ -1745,12 +1747,14 @@ html, body {
     }
     
     .depoimentos h1{
-        font-size: 48px;
+        font-size: 35px;
         margin-top: 50px;
+        margin-left: 0;
     }
     
     .depoimentos p{
         color: #6E6E6E;
+        margin-left: 0;
     }
     
     /* Carrosel */
@@ -1831,16 +1835,17 @@ html, body {
     
     .cau-conteudo h1{
         font-family: "Montserrat";
-        font-size: 48px;
+        font-size: 35px;
         color: #FFFFFF;
-        line-height: 55px;
+        line-height: 40px;
         margin: 15px 0px;
     }
     
     .cau-conteudo p{
         font-family: "Roboto";
         color: #FFFFFF;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 20px;
         margin: 15px 28px 15px 0px;
     }
     
@@ -1892,7 +1897,8 @@ html, body {
     .cabecalho{
         display: flex;
         flex-wrap: wrap;
-        width: 50%;
+        width: 100%;
+        height: 840px;
     }
     
     .img-cabecalho{
@@ -1972,7 +1978,7 @@ html, body {
     }
     
     .texto-conteudo h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .texto-conteudo p{
@@ -2055,11 +2061,11 @@ html, body {
     }
     
     .lista-forma-trabalho h1{
-        font-size: 40px;
+        font-size: 35px;
         color: #000000;
         padding: 0 0 20px 0;
         line-height: 50px;
-        width: 100%;
+        width: 60%;
     }
     
     .lista-forma-trabalho ul{
@@ -2098,7 +2104,7 @@ html, body {
     
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 40px;
+        font-size: 35px;
         display: inline-block;
         margin: 65px 0 0 115px;
     }
@@ -2198,7 +2204,7 @@ html, body {
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 40px;
+        font-size: 35px;
         text-align: start;
         padding: 0 0 40px 0;
         width: 80%;
@@ -2320,14 +2326,14 @@ html, body {
     
     .mod-atendimento h1{
         font-family: "Montserrat";
-        font-size: 27px;
-        width: 30%;
-        margin: 150px 20px;
+        font-size: 35px;
+        width: 40%;
+        margin: 150px 10px;
     }
     
     .card-m-a{
         width: 18%;
-        margin: 100px 10px;
+        margin: 100px 0px;
         line-height: 22px;
     }
     
@@ -2363,13 +2369,15 @@ html, body {
     }
     
     .depoimentos h1{
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 50px;
+        margin-left: 70px;
     }
     
     .depoimentos p{
         color: #6E6E6E;
         font-size: 15px;
+        margin-left: 70px;
     }
     
     /* Carrosel */
@@ -2445,16 +2453,17 @@ html, body {
     
     .cau-conteudo{
         width: 100%;
-        margin: 0px 100px 0 130px;
+        margin: 0px 100px 0 180px;
         padding: 50px 0px;
     }
     
     .cau-conteudo h1{
         font-family: "Montserrat";
-        font-size: 45px;
+        font-size: 35px;
         color: #FFFFFF;
         line-height: 55px;
         margin: 15px 0px;
+        width: 80%;
     }
     
     .cau-conteudo p{
@@ -2462,6 +2471,8 @@ html, body {
         color: #FFFFFF;
         line-height: 25px;
         margin: 15px 28px 15px 0px;
+        font-size: 20px;
+        width: 80%;
     }
     
     .cau-img{
@@ -2516,6 +2527,7 @@ html, body {
     }
     
     .img-cabecalho{
+        position: 0;
         transform: scale(0.5);
         transform-origin: bottom;
         width: 50%; /* ou 50% do tamanho original */
@@ -2601,7 +2613,7 @@ html, body {
     }
     
     .texto-conteudo h1{
-        font-size: 32px;
+        font-size: 30px;
         margin-left: 0px;
     }
     
@@ -2685,7 +2697,7 @@ html, body {
     }
     
     .lista-forma-trabalho h1{
-        font-size: 32px;
+        font-size: 30px;
         color: #000000;
         padding: 0 0 20px 0;
         line-height: 30px;
@@ -2735,7 +2747,7 @@ html, body {
     
     .titulo-ms{
         font-family: "Montserrat";
-        font-size: 32px;
+        font-size: 30px;
         display: inline-block;
         margin: 115px 0 0 75px;
     }
@@ -2833,7 +2845,7 @@ html, body {
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 32px;
+        font-size: 30px;
         text-align: start;
         padding: 0 0 50px 20px;
         width: 90%;
@@ -2962,7 +2974,7 @@ html, body {
     
     .mod-atendimento h1{
         font-family: "Montserrat";
-        font-size: 32px;
+        font-size: 30px;
         width: 100%;
         margin: 50px 25px 0 60px;
         transform-origin: center;
@@ -3005,7 +3017,7 @@ html, body {
     }
     
     .depoimentos h1{
-        font-size: 32px;
+        font-size: 30px;
         margin-top: 40px;
         margin-bottom: 20px;
         margin-left: 0;
@@ -3094,16 +3106,17 @@ html, body {
     
     .cau-conteudo{
         width: 100%;
-        margin: 0px 40px;
-        padding: 50px 0px;
+        margin: 0px 0px;
+        padding: 50px 45px;
     }
     
     .cau-conteudo h1{
         font-family: "Montserrat";
-        font-size: 35px;
+        font-size: 30px;
         color: #FFFFFF;
         line-height: 35px;
         margin: 15px 0px;
+        width: 100%;
     }
     
     .cau-conteudo p{
@@ -3113,6 +3126,7 @@ html, body {
         font-size: 17px;
         margin: 15px 28px 15px 0px;
         text-align: justify;
+        width: 100%;
     }
     
     .cau-img img{
@@ -3130,7 +3144,7 @@ html, body {
         margin-left: 0;
         margin-top: 30px;
         margin-bottom: 30px;
-        font-size: 14px;
+        font-size: 17px;
     }
 
     /* Footer */
@@ -3184,6 +3198,7 @@ html, body {
     }
     
     .img-cabecalho{
+        position: 0;
         transform: scale(0.45);
         transform-origin: bottom;
         width: 50%; /* ou 50% do tamanho original */
