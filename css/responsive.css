@@ -40,6 +40,92 @@
   .texto-conteudo strong {
     padding: 30px 0 0 0;
   }
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 100px 0 0 165px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 40px;
+    display: inline-block;
+    margin: 115px 0 0 245px;
+  }
+
+  .meus-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 50px 20px 150px;
+  }
+
+  .meus-servicos div {
+    width: 14%;
+    margin: 15px;
+    padding: 40px 40px 55px 40px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 15px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 20px 50px 200px 150px;
+  }
+
+  .meus-servicos-2 div {
+    width: 14%;
+    margin: 15px;
+    padding: 40px 40px 55px 40px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 15px;
+    color: #212121;
+    line-height: 20px;
+  }
 
   /* Quinta Section "Como Funciona a minha Consultoria" */
 
@@ -124,6 +210,7 @@
     color: #ff7b1c;
     list-style-type: disc;
   }
+
   /* Nona Section "Acredito que cada animal é unico" */
 
   .cada-animal-unico {
@@ -1015,7 +1102,7 @@
   /* Quarta Section "Meus Serviços" */
 
   .img-ms {
-    margin: 100px 0 0 265px;
+    margin: 100px 0 0 165px;
     position: absolute;
   }
 
@@ -1023,14 +1110,14 @@
     font-family: "Montserrat";
     font-size: 40px;
     display: inline-block;
-    margin: 115px 0 0 345px;
+    margin: 115px 0 0 245px;
   }
 
   .meus-servicos {
     display: flex;
     flex-wrap: wrap;
     font-family: "Montserrat";
-    margin: 50px 100px 20px 250px;
+    margin: 50px 50px 20px 150px;
   }
 
   .meus-servicos div {
@@ -1067,7 +1154,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: "Montserrat";
-    margin: 20px 100px 200px 250px;
+    margin: 20px 50px 200px 150px;
   }
 
   .meus-servicos-2 div {
@@ -1667,7 +1754,7 @@
   .meus-servicos div {
     width: 18%;
     margin: 5px;
-    padding: 40px 20px 15px 50px;
+    padding: 25px 15px 15px 40px;
     background-color: #fffaf3;
     border: 1px solid;
     border-color: #f28705;
@@ -1703,7 +1790,7 @@
   .meus-servicos-2 div {
     width: 18%;
     margin: 5px;
-    padding: 40px 20px 35px 50px;
+    padding: 25px 15px 15px 40px;
     background-color: #fffaf3;
     border: 1px solid;
     border-color: #f28705;
@@ -1742,12 +1829,12 @@
     left: 0;
     transform: scale(0.7);
     transform-origin: left;
-    padding: 0px 0 0 150px;
+    padding: 0px 0 0 50px;
   }
 
   .div-cfmc {
     padding: 15px;
-    margin: 0 0 0 650px;
+    margin: 0 0 0 550px;
   }
 
   .div-cfmc button {
@@ -2387,7 +2474,7 @@
     font-size: 35px;
     text-align: start;
     padding: 20px 0 0px 22px;
-    width: 70%;
+    width: 80%;
   }
 
   .lista-cfmc {
