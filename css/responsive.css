@@ -1,0 +1,4660 @@
+@media screen and (max-width: 1770px) {
+  /* Conteudo do Header*/
+  .texto-cabecalho {
+    padding: 125px 85px 0 150px;
+    margin-bottom: 187px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-right: 15%;
+  }
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    scale: 0.9;
+    padding: 0px 0px 0px 100px;
+  }
+
+  .texto-conteudo {
+    width: 32%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 50px 0px 50px 200px;
+    line-height: 22px;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 35px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 150px 0px;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 0 0 0 0px;
+  }
+
+  .img-cfmc {
+    margin: 0 100px;
+  }
+
+  .div-cfmc button {
+    display: block;
+  }
+
+  .div-cfmc a {
+    text-decoration: none;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    text-align: start;
+    padding: 0 0 40px 20px;
+    width: 70%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 80%;
+  }
+
+  .lista-cfmc div {
+    margin-right: 50px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 80%;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 40px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 50px 150px;
+    padding: 120px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 55px;
+    margin: 0px 0px 30px 0;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 15px 28px 55px 0px;
+  }
+
+  .cau-img {
+    padding: 9% 10% 5% 0%;
+    transform: scale(1.1);
+  }
+
+  .cada-animal-unico button {
+    padding: 20px 50px;
+    margin: 0px 0 0 40px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    margin: 70px 200px 70px 190px;
+  }
+
+  .div-footer {
+    margin: 80px 100px 80px 300px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 50%;
+  }
+
+  .img-cabecalho {
+    position: relative;
+    right: 0;
+    transform-origin: right;
+    top: 8px;
+  }
+
+  .texto-cabecalho {
+    padding: 125px 85px 0 205px;
+    margin-bottom: 187px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-right: 20%;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 50px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 20px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 20%;
+    margin: 10px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.3s all;
+    font-size: 18px;
+  }
+
+  .botao:hover {
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    scale: 0.9;
+    padding: 0px 0px 0px 150px;
+  }
+
+  .texto-conteudo {
+    width: 32%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 50px 0px 50px 200px;
+    line-height: 22px;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 35px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -200px;
+    left: 200px;
+  }
+
+  #img-02 {
+    top: -50px;
+    left: 200px;
+  }
+
+  #img-03 {
+    top: -80px;
+    left: 300px;
+  }
+
+  #img-04 {
+    top: 0px;
+    right: 200px;
+  }
+
+  #img-05 {
+    top: -100px;
+    right: 300px;
+  }
+
+  #img-06 {
+    top: -250px;
+    right: 200px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 60px 20%;
+    width: 50%;
+    margin: 100px 5% 0 5%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    height: 605px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 35px;
+    color: #000000;
+    padding: 0 0 20px 0;
+    line-height: 50px;
+    width: 50%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 40%;
+    color: #212121;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0 100px 0 150px;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 300px 300px;
+    position: absolute;
+    border-radius: 50%;
+    right: 60px;
+  }
+
+  .img-forma-trabalho {
+    position: absolute;
+    right: 10px;
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 100px 0 0 265px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 35px;
+    display: inline-block;
+    margin: 115px 0 0 345px;
+  }
+
+  .meus-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 100px 20px 250px;
+  }
+
+  .meus-servicos div {
+    width: 14%;
+    margin: 20px;
+    padding: 40px 40px 55px 40px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 15px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 20px 100px 200px 250px;
+  }
+
+  .meus-servicos-2 div {
+    width: 14%;
+    margin: 20px;
+    padding: 40px 40px 55px 40px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 15px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 150px 0px;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 0 0 0 0px;
+  }
+
+  .img-cfmc {
+    margin: 0 100px;
+  }
+
+  .div-cfmc button {
+    display: block;
+  }
+
+  .div-cfmc a {
+    text-decoration: none;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    text-align: start;
+    padding: 0 0 40px 20px;
+    width: 60%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 80%;
+  }
+
+  .lista-cfmc div {
+    margin-right: 50px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 80%;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 40px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 150px;
+  }
+
+  .doguinho {
+    width: 39%;
+    margin: 0px 20px 100px 50px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px 100px 100px;
+    font-size: 25px;
+  }
+
+  .doguinho img {
+    padding: 0 40%;
+  }
+
+  .doguinho h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .doguinho h2 {
+    text-align: center;
+  }
+
+  .planeta {
+    width: 39%;
+    margin: 0px 50px 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px 100px 100px;
+    font-size: 25px;
+  }
+
+  .planeta img {
+    padding: 0 39.5%;
+  }
+
+  .planeta h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    width: 20%;
+    margin: 200px 170px;
+  }
+
+  .card-m-a {
+    width: 12%;
+    margin: 150px 50px;
+    line-height: 22px;
+  }
+
+  .card-m-a h2 {
+    width: 100px;
+    font-family: "Montserrat";
+    display: inline;
+    position: absolute;
+    margin: 10px 5px;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 45px;
+  }
+
+  .dep-1 {
+    margin: 0px 90px;
+    padding: 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    margin-left: 90px;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 50px 150px;
+    padding: 120px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 55px;
+    margin: 0px 0px 30px 0;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 15px 28px 55px 0px;
+  }
+
+  .cau-img {
+    padding: 9% 10% 5% 0%;
+    transform: scale(1.1);
+  }
+
+  .cada-animal-unico button {
+    padding: 20px 50px;
+    margin: 0px 0 0 40px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    margin: 70px 200px 70px 190px;
+  }
+
+  .div-footer {
+    margin: 80px 100px 80px 300px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    width: 100%;
+    background-color: #d66700;
+    background-image: url(img/BG-LP-MARI.png);
+  }
+
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 100%;
+  }
+
+  .texto-cabecalho {
+    padding: 125px 0px 0 160px;
+    margin-bottom: 187px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-right: 0;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 50px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 20px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 20%;
+    margin: 10px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.2 all;
+    font-size: 18px;
+  }
+
+  .botao:hover {
+    transform: scale(1.2);
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    scale: 0.9;
+    padding: 0px 0px 0px 150px;
+  }
+
+  .texto-conteudo {
+    width: 32%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 50px 0px 50px 50px;
+    line-height: 22px;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 40px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -200px;
+    left: 200px;
+  }
+
+  #img-02 {
+    top: -50px;
+    left: 200px;
+  }
+
+  #img-03 {
+    top: -80px;
+    left: 300px;
+  }
+
+  #img-04 {
+    top: 0px;
+    right: 200px;
+  }
+
+  #img-05 {
+    top: -100px;
+    right: 300px;
+  }
+
+  #img-06 {
+    top: -250px;
+    right: 200px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 60px 20%;
+    width: 50%;
+    margin: 100px 5% 0 5%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    height: 605px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 40px;
+    color: #000000;
+    padding: 0 0 20px 0;
+    line-height: 50px;
+    width: 50%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 40%;
+    color: #212121;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0 100px 0 150px;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 300px 300px;
+    position: absolute;
+    border-radius: 50%;
+    right: 60px;
+  }
+
+  .img-forma-trabalho {
+    position: absolute;
+    right: 10px;
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 100px 0 0 265px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 40px;
+    display: inline-block;
+    margin: 115px 0 0 345px;
+  }
+
+  .meus-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 100px 20px 250px;
+  }
+
+  .meus-servicos div {
+    width: 14%;
+    margin: 15px;
+    padding: 40px 40px 55px 40px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 15px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 20px 100px 200px 250px;
+  }
+
+  .meus-servicos-2 div {
+    width: 14%;
+    margin: 15px;
+    padding: 40px 40px 55px 40px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 15px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 150px 20px;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 0 0 0 100px;
+  }
+
+  .img-cfmc {
+    margin: 0;
+  }
+
+  .div-cfmc button {
+    display: block;
+  }
+
+  .div-cfmc a {
+    text-decoration: none;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 40px;
+    text-align: start;
+    padding: 0 0 40px 0;
+    width: 70%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+  }
+
+  .lista-cfmc div {
+    margin-right: 50px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 40px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 150px;
+  }
+
+  .doguinho {
+    width: 39%;
+    margin: 0px 20px 100px 50px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px 100px 100px;
+    font-size: 25px;
+  }
+
+  .doguinho img {
+    padding: 0 40%;
+  }
+
+  .doguinho h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .doguinho h2 {
+    text-align: center;
+  }
+
+  .planeta {
+    width: 39%;
+    margin: 0px 50px 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px 100px 100px;
+    font-size: 25px;
+  }
+
+  .planeta img {
+    padding: 0 34%;
+  }
+
+  .planeta h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 40px;
+    width: 30%;
+    margin: 200px 120px;
+  }
+
+  .card-m-a {
+    width: 12%;
+    margin: 150px 40px;
+    line-height: 22px;
+  }
+
+  .card-m-a h2 {
+    width: 100px;
+    font-family: "Montserrat";
+    display: inline;
+    position: absolute;
+    margin: 10px 5px;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 45px;
+  }
+
+  .dep-1 {
+    margin: 0px 90px;
+    padding: 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    margin-left: 60px;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 0px 100px;
+    padding: 120px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 45px;
+    margin: 0px 0px 30px 0;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 18px;
+    margin: 15px 28px 15px 0px;
+  }
+
+  .cau-img {
+    padding: 9% 10% 5% 0%;
+    transform: scale(1.1);
+  }
+
+  .cada-animal-unico button {
+    padding: 20px 40px;
+    margin: 50px 0 0 0px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    margin: 70px 0px 70px 190px;
+  }
+
+  .div-footer {
+    margin: 80px 100px 80px 300px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  header {
+    width: 100%;
+    background-color: #d66700;
+    background-image: url(img/BG-LP-MARI.png);
+  }
+
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 100%;
+    height: 582px;
+  }
+
+  .img-cabecalho {
+    margin-top: 18px;
+    transform: scale(0.7);
+    position: sticky;
+  }
+
+  .texto-cabecalho {
+    margin-bottom: 0px;
+    padding: 130px 0px 0px 105px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-right: 0;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 35px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 20px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 70px;
+    margin: 20px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.2 all;
+  }
+
+  .botao:hover {
+    transform: scale(1.2);
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    position: absolute;
+    left: 0;
+    transform: scale(0.8);
+    transform-origin: left;
+    padding: 0px 0px 0px 70px;
+  }
+
+  .texto-conteudo {
+    width: 45%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 60px 80px 50px 550px;
+    line-height: 22px;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 35px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 30vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -300px;
+    left: 100px;
+  }
+
+  #img-02 {
+    top: -200px;
+    left: 50px;
+  }
+
+  #img-03 {
+    top: -180px;
+    left: 200px;
+  }
+
+  #img-04 {
+    top: -150px;
+    right: 50px;
+  }
+
+  #img-05 {
+    top: -200px;
+    right: 100px;
+  }
+
+  #img-06 {
+    top: -350px;
+    right: 20px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 40px 20%;
+    width: 40%;
+    margin: 100px 10% 0 10%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    height: 600px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 35px;
+    color: #000000;
+    padding: 30px 0 20px 0;
+    line-height: 50px;
+    width: 50%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 55%;
+    color: #777777;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0 100px 0 50px;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 150px 150px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-right: 0px;
+  }
+
+  .img-forma-trabalho {
+    position: absolute;
+    right: 0;
+    transform: scale(0.6);
+    transform-origin: right;
+    margin-top: 116px;
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 100px 0 0 65px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 35px;
+    display: inline-block;
+    margin: 115px 0 0 125px;
+  }
+
+  .meus-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 50px 20px 50px;
+  }
+
+  .meus-servicos div {
+    width: 18%;
+    margin: 5px;
+    padding: 40px 20px 15px 50px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 10px 50px 100px 50px;
+  }
+
+  .meus-servicos-2 div {
+    width: 18%;
+    margin: 5px;
+    padding: 40px 20px 35px 50px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px;
+  }
+
+  .img-cfmc {
+    position: absolute;
+    left: 0;
+    transform: scale(0.7);
+    transform-origin: left;
+    padding: 0px 0 0 150px;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 0 0 0 650px;
+  }
+
+  .div-cfmc button {
+    display: block;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    text-align: start;
+    padding: 20px 0 0px 22px;
+    width: 100%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+    transform: scale(0.9);
+    transform-origin: left;
+  }
+
+  .lista-cfmc div {
+    margin-right: 50px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+    transform: scale(0.9);
+    transform-origin: left;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 40px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 50px;
+  }
+
+  .doguinho {
+    width: 30%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px;
+    font-size: 25px;
+  }
+
+  .doguinho img {
+    padding: 0 37%;
+  }
+
+  .doguinho h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .doguinho h2 {
+    text-align: center;
+  }
+
+  .planeta {
+    width: 30%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px;
+    font-size: 25px;
+  }
+
+  .planeta img {
+    padding: 0 37%;
+  }
+
+  .planeta h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    width: 30%;
+    margin: 200px 70px;
+  }
+
+  .card-m-a {
+    width: 12%;
+    margin: 150px 20px;
+    line-height: 22px;
+    transform: scale(0.8);
+  }
+
+  .card-m-a h2 {
+    width: 100px;
+    font-family: "Montserrat";
+    display: inline;
+    position: absolute;
+    margin: 10px 5px;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 45px;
+  }
+
+  .dep-1 {
+    margin: 0px 90px;
+    padding: 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    margin-left: 0;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+  }
+
+  .cau-conteudo {
+    width: 50%;
+    margin: 0px 50px;
+    padding: 150px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 15px 0px;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 15px 28px 15px 0px;
+  }
+
+  .cau-img {
+    padding: 5%;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    margin: 50px 10%;
+  }
+
+  .div-footer {
+    margin: 80px 70px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+    background-color: #d66700;
+    background-image: url(img/BG-LP-MARI.png);
+  }
+
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 100%;
+    height: 582px;
+  }
+
+  .img-cabecalho {
+    margin-top: 18px;
+    transform: scale(0.7);
+    position: sticky;
+  }
+
+  .texto-cabecalho {
+    margin-bottom: 0px;
+    padding: 130px 0px 0px 105px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    margin-right: 0;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 35px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 20px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 70px;
+    margin: 20px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.2 all;
+  }
+
+  .botao:hover {
+    transform: scale(1.2);
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    position: absolute;
+    left: 0;
+    transform: scale(0.7);
+    transform-origin: left;
+    padding: 0px 0 0 50px;
+  }
+
+  .texto-conteudo {
+    width: 55%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 40px 80px 50px 450px;
+    line-height: 22px;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 35px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 24vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -300px;
+    left: 100px;
+  }
+
+  #img-02 {
+    top: -200px;
+    left: 50px;
+  }
+
+  #img-03 {
+    top: -180px;
+    left: 200px;
+  }
+
+  #img-04 {
+    top: -150px;
+    right: 50px;
+  }
+
+  #img-05 {
+    top: -200px;
+    right: 100px;
+  }
+
+  #img-06 {
+    top: -350px;
+    right: 20px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 40px 20%;
+    width: 50%;
+    margin: 0px 5% 0 5%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    height: 600px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 35px;
+    color: #000000;
+    padding: 30px 0 20px 0;
+    line-height: 50px;
+    width: 50%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 55%;
+    color: #777777;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0 100px 0 50px;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 150px 150px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-right: 0px;
+  }
+
+  .img-forma-trabalho {
+    position: absolute;
+    right: 0;
+    transform: scale(0.6);
+    transform-origin: right;
+    margin-top: 116px;
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 100px 0 0 65px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 35px;
+    display: inline-block;
+    margin: 115px 0 0 125px;
+  }
+
+  .meus-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 50px 20px 50px;
+  }
+
+  .meus-servicos div {
+    width: 18%;
+    margin: 5px;
+    padding: 40px 20px 15px 30px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 10px 50px 100px 50px;
+  }
+
+  .meus-servicos-2 div {
+    width: 18%;
+    margin: 5px;
+    padding: 40px 20px 35px 30px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px;
+  }
+
+  .img-cfmc {
+    position: absolute;
+    left: 0;
+    transform: scale(0.7);
+    transform-origin: left;
+    padding: 0px 0 0 50px;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 0 0 0 500px;
+  }
+
+  .div-cfmc button {
+    display: block;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    text-align: start;
+    padding: 20px 0 0px 22px;
+    width: 70%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+    transform: scale(0.9);
+    transform-origin: left;
+  }
+
+  .lista-cfmc div {
+    margin-right: 50px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+    transform: scale(0.9);
+    transform-origin: left;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 40px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 50px;
+  }
+
+  .doguinho {
+    width: 40%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px;
+    font-size: 25px;
+  }
+
+  .doguinho img {
+    padding: 0 27%;
+  }
+
+  .doguinho h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .doguinho h2 {
+    text-align: center;
+  }
+
+  .planeta {
+    width: 40%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 100px;
+    font-size: 25px;
+  }
+
+  .planeta img {
+    padding: 0 27%;
+  }
+
+  .planeta h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    width: 30%;
+    margin: 200px 70px;
+  }
+
+  .card-m-a {
+    width: 12%;
+    margin: 150px 20px;
+    line-height: 22px;
+    transform: scale(0.8);
+  }
+
+  .card-m-a h2 {
+    width: 100px;
+    font-family: "Montserrat";
+    display: inline;
+    position: absolute;
+    margin: 10px 5px;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 45px;
+  }
+
+  .dep-1 {
+    margin: 0px 90px;
+    padding: 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    margin-left: 0;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+  }
+
+  .cau-conteudo {
+    width: 50%;
+    margin: 0px 50px;
+    padding: 50px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 15px 0px;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 15px 28px 15px 0px;
+  }
+
+  .cau-img {
+    padding: 5%;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    margin: 50px 100px;
+  }
+
+  .div-footer {
+    margin: 80px 10px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+  }
+
+  header {
+    width: 100%;
+    background-color: #d66700;
+    background-image: url(img/BG-LP-MARI.png);
+  }
+
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 840px;
+  }
+
+  .img-cabecalho {
+    position: absolute;
+    margin-top: 250px;
+  }
+
+  .texto-cabecalho {
+    margin-bottom: 363px;
+    padding: 75px 85px 0 100px;
+    text-align: left;
+    color: white;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 50px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 20px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 70px;
+    margin: 20px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.2 all;
+  }
+
+  .botao:active {
+    transform: scale(1.2);
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    position: absolute;
+    left: 0;
+    transform: scale(0.6);
+    transform-origin: left;
+  }
+
+  .texto-conteudo {
+    width: 45%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 10px 0px 50px 380px;
+    line-height: 22px;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 35px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -250px;
+    left: 100px;
+  }
+
+  #img-02 {
+    top: -150px;
+    left: 50px;
+  }
+
+  #img-03 {
+    top: -120px;
+    left: 10px;
+  }
+
+  #img-04 {
+    top: -220px;
+    right: 0px;
+  }
+
+  #img-05 {
+    top: 80px;
+    right: 50px;
+  }
+
+  #img-06 {
+    top: -250px;
+    right: 20px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 60px 20%;
+    width: 50%;
+    margin: 100px 5% 0 5%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    height: 605px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 35px;
+    color: #000000;
+    padding: 0 0 20px 0;
+    line-height: 50px;
+    width: 60%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 60%;
+    color: #777777;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0 100px 0 50px;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 100px 100px;
+    position: absolute;
+    border-radius: 50%;
+    right: 50px;
+    margin-top: 365px;
+  }
+
+  .img-forma-trabalho {
+    right: 10px;
+    transform: scale(0.4);
+    margin-top: 180px;
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 50px 0 0 50px;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 35px;
+    display: inline-block;
+    margin: 65px 0 0 115px;
+  }
+
+  .meus-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 15px;
+  }
+
+  .meus-servicos div {
+    width: 17.5%;
+    padding: 20px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 9px;
+    color: #212121;
+    line-height: 10px;
+  }
+
+  .meus-servicos-2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 0px 15px 70px 15px;
+  }
+
+  .meus-servicos-2 div {
+    width: 17.5%;
+    padding: 30px 20px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 9px;
+    color: #212121;
+    line-height: 10px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+  }
+
+  .img-cfmc {
+    position: absolute;
+    margin: 700px 15% 0 15%;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 40px 40px 400px 40px;
+  }
+
+  .div-cfmc button {
+    display: block;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    text-align: start;
+    padding: 0 0 40px 0;
+    width: 100%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+  }
+
+  .lista-cfmc div {
+    margin-right: 50px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    margin: 30px;
+    width: 100%;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 40px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 0px;
+  }
+
+  .doguinho {
+    width: 40%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 70px;
+    font-size: 25px;
+  }
+
+  .doguinho img {
+    padding: 0 30%;
+  }
+
+  .doguinho h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .doguinho h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .planeta {
+    width: 40%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 70px;
+    font-size: 25px;
+  }
+
+  .planeta img {
+    padding: 0 27%;
+  }
+
+  .planeta h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    width: 40%;
+    margin: 150px 10px;
+  }
+
+  .card-m-a {
+    width: 18%;
+    margin: 100px 0px;
+    line-height: 22px;
+  }
+
+  .card-m-a h2 {
+    width: 100px;
+    font-family: "Montserrat";
+    display: inline;
+    position: absolute;
+    margin: 10px 5px;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 45px;
+  }
+
+  .dep-1 {
+    margin: 0px 10px;
+    padding: 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    font-size: 15px;
+    margin-left: 70px;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 0px 100px 0 180px;
+    padding: 50px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 55px;
+    margin: 15px 0px;
+    width: 80%;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 25px;
+    margin: 15px 28px 15px 0px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .cau-img {
+    padding: 20px 18%;
+    margin-bottom: 30px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    transform: scale(0.7);
+    transform-origin: left;
+    margin: 30px 30px;
+  }
+
+  .div-footer {
+    margin: 30px 0px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    flex-wrap: wrap;
+    border-radius: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+  }
+
+  header {
+    width: 100%;
+    height: 685px;
+    background-color: #d66700;
+    background-image: url(img/BG-LP-MARI.png);
+  }
+
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 90%;
+  }
+
+  .img-cabecalho {
+    position: 0;
+    transform: scale(0.5);
+    transform-origin: bottom;
+    width: 50%; /* ou 50% do tamanho original */
+    display: block;
+    margin: 0 200px;
+    top: 0px;
+  }
+
+  .texto-cabecalho {
+    width: 100%;
+    padding: 72px 0px 0 35px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 35px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 10px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 20%;
+    margin: 10px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.2 all;
+  }
+
+  .botao:active {
+    transform: scale(1.2);
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    position: absolute;
+    transform-origin: left;
+    transform: scale(0.5);
+    padding: 0px;
+    left: 0;
+    margin-left: 18%;
+    margin-top: 480px;
+  }
+
+  .texto-conteudo {
+    width: 100%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 20px 25px 280px 25px;
+    line-height: 22px;
+    text-align: justify;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -250px;
+    left: 100px;
+  }
+
+  #img-02 {
+    top: -150px;
+    left: 50px;
+  }
+
+  #img-03 {
+    top: -120px;
+    left: 10px;
+  }
+
+  #img-04 {
+    top: -220px;
+    right: 0px;
+  }
+
+  #img-05 {
+    top: 800px;
+    right: 50px;
+  }
+
+  #img-06 {
+    top: -250px;
+    right: 20px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 60px 10%;
+    width: 70%;
+    margin: 100px 5% 0 5%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    padding-bottom: 350px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 30px;
+    color: #000000;
+    padding: 0 0 20px 0;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 80%;
+    color: #242424;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0px 0px 0px 50px;
+  }
+
+  .lista-forma-trabalho button {
+    padding: 5% 32%;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 150px 150px;
+    position: absolute;
+    border-radius: 50%;
+    right: 12%;
+    margin-top: 655px;
+  }
+
+  .img-forma-trabalho {
+    transform: scale(0.5);
+    position: absolute;
+    right: 5%;
+    margin-top: 502px;
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    transform: scale(0.8);
+    margin: 95px 0 0 15px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 30px;
+    display: inline-block;
+    margin: 115px 0 0 75px;
+  }
+
+  .meus-servicos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 0px 0px 15px;
+  }
+
+  .meus-servicos div {
+    width: 32%;
+    padding: 20px 25px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 0px 0px 20px 15px;
+  }
+
+  .meus-servicos-2 div {
+    width: 32%;
+    padding: 20px 25px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 50px 0px;
+    width: 100%;
+  }
+
+  .div-cfmc {
+    width: 100%;
+    margin: 0px 0 300px 0;
+  }
+
+  .div-cfmc button {
+    display: block;
+    margin: 0 10%;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-align: start;
+    padding: 0 0 50px 20px;
+    width: 90%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    width: 100%;
+  }
+
+  .lista-cfmc div {
+    margin-right: 35px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    width: 100%;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 35px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  .img-cfmc {
+    transform: scale(0.55);
+    position: absolute;
+    transform-origin: left;
+    margin: 600px 0 0 20px;
+    padding-left: 15px;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 15px;
+  }
+
+  .doguinho {
+    width: 30%;
+    margin: 0px 20px 50px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 30px 95px 30px 85px;
+    font-size: 25px;
+    transform: scale(0.55);
+    transform-origin: left;
+  }
+
+  .doguinho img {
+    padding: 0 0px 0 25px;
+    transform: scale(0.7);
+  }
+
+  .doguinho h1 {
+    font-size: 40px;
+    padding: 0 30px 0 13px;
+  }
+
+  .doguinho h2 {
+    padding: 0 20px 0 0;
+    text-align: end;
+  }
+
+  .planeta {
+    width: 30%;
+    margin: 0px 20px 50px 210px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 30px 95px;
+    font-size: 25px;
+    transform: scale(0.55);
+    transform-origin: left;
+    position: absolute;
+  }
+
+  .planeta img {
+    padding: 0 13%;
+    transform: scale(0.7);
+  }
+
+  .planeta h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    width: 100%;
+    margin: 50px 25px 0 60px;
+    transform-origin: center;
+  }
+
+  .card-m-a {
+    width: 100%;
+    margin: 20px 0px 0 0px;
+    line-height: 22px;
+    transform: scale(0.7);
+  }
+
+  .card-m-a h2 {
+    font-family: "Montserrat";
+    margin: 10px 5px;
+    width: 50%;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 25px;
+    padding: 20px;
+  }
+
+  .dep-1 {
+    margin: 0px 40px;
+    padding: 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+    flex-wrap: wrap; /* Impede que os itens ultrapassem os limites */
+    width: 100%;
+    overflow: hidden;
+    min-width: 0;
+    padding-bottom: 50px;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 0px 0px;
+    padding: 50px 45px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 35px;
+    margin: 15px 0px;
+    width: 100%;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 17px;
+    margin: 15px 28px 15px 0px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .cau-img img {
+    padding: 0; /* Removendo padding lateral */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transform-origin: center;
+    transform: scale(1.1);
+  }
+
+  .cada-animal-unico button {
+    transform: scale(1);
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+
+  /* Footer */
+
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .logo-footer img {
+    margin: 0px 0 0 15%;
+    width: 100%;
+    transform: scale(1.3);
+  }
+
+  .div-footer {
+    margin: 0px 10% 40px 20%;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+  }
+
+  header {
+    width: 100%;
+    height: 685px;
+    background-color: #d66700;
+    background-image: url(img/BG-LP-MARI.png);
+  }
+
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 100%;
+  }
+
+  .img-cabecalho {
+    position: 0;
+    transform: scale(0.45);
+    transform-origin: bottom;
+    width: 50%; /* ou 50% do tamanho original */
+    display: block;
+    margin: 0 200px;
+  }
+
+  .texto-cabecalho {
+    width: 100%;
+    padding: 65px 0px 0 45px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 30px;
+    font-family: "Poppins";
+  }
+
+  .texto-cabecalho p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 20px 0px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .botao {
+    background-color: #008c24;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 55px;
+    margin: 20px 0px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-color: #008c24;
+    border-style: solid;
+    transition: ease-in 0.2 all;
+  }
+
+  .botao:active {
+    transform: scale(1.2);
+    background-color: #f1f1f1;
+    color: #07b434;
+    border-style: solid;
+    border-color: #f1f1f1;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+
+  /* Primeira Section "Quem Sou Eu" */
+
+  .conteudo {
+    background-color: #fffaf3;
+    padding: 50px 0px;
+    display: flex;
+  }
+
+  .img-conteudo {
+    position: absolute;
+    transform-origin: left;
+    transform: scale(0.6);
+    padding: 0px;
+    left: 0;
+    margin-left: 36px;
+    margin-top: 660px;
+  }
+
+  .texto-conteudo {
+    width: 90%;
+    color: #212121;
+    font-family: "Montserrat";
+    padding: 50px 35px 370px 35px;
+    line-height: 22px;
+    text-align: justify;
+  }
+
+  .texto-conteudo h1 {
+    font-size: 32px;
+    text-align: initial;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .texto-conteudo p {
+    padding: 30px 0 0 0;
+  }
+
+  .texto-conteudo strong {
+    padding: 30px 0 0 0;
+  }
+
+  /* Segunda Section "Parallax" */
+
+  .parallax {
+    background-color: #fffaf3;
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+  }
+
+  .parallax-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+  }
+
+  .rellax {
+    position: absolute;
+  }
+
+  #img-01 {
+    top: -350px;
+    left: 100px;
+  }
+
+  #img-02 {
+    top: -250px;
+    left: 50px;
+  }
+
+  #img-03 {
+    top: -220px;
+    left: -30px;
+  }
+
+  #img-04 {
+    top: -280px;
+    right: 0px;
+  }
+
+  #img-05 {
+    top: 800px;
+    right: 50px;
+  }
+
+  #img-06 {
+    top: -350px;
+    right: 20px;
+  }
+
+  .texto-parallax {
+    background-color: #f28705;
+    color: #fffaf3;
+    padding: 60px 10%;
+    width: 70%;
+    margin: 100px 5% 0 5%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    padding-bottom: 306px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 30px;
+    color: #000000;
+    padding: 0 0 20px 0;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .lista-forma-trabalho ul {
+    padding: 5px 0 30px 25px;
+    line-height: 30px;
+  }
+
+  .lista-forma-trabalho {
+    width: 90%;
+    color: #242424;
+    font-family: "Montserrat";
+    line-height: 22px;
+    margin: 0px 0px 0px 25px;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 125px;
+    position: absolute;
+    border-radius: 50%;
+    right: 58px;
+    margin-top: 635px;
+  }
+
+  .img-forma-trabalho {
+    position: absolute;
+    right: 25px;
+    margin-top: 470px;
+    transform: scale(0.45);
+  }
+
+  /* Quarta Section "Meus Serviços" */
+
+  .img-ms {
+    margin: 100px 0 0 35px;
+    position: absolute;
+  }
+
+  .titulo-ms {
+    font-family: "Montserrat";
+    font-size: 30px;
+    display: inline-block;
+    margin: 115px 0 0 95px;
+  }
+
+  .meus-servicos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 50px 0px 0px 5px;
+  }
+
+  .meus-servicos div {
+    width: 32%;
+    padding: 20px 27px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  .meus-servicos-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin: 0px 0px 20px 5px;
+  }
+
+  .meus-servicos-2 div {
+    width: 32%;
+    padding: 20px 27px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 li {
+    color: #ff7b1c;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div p {
+    font-size: 11px;
+    color: #212121;
+    line-height: 20px;
+  }
+
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .c-f-m-c- {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 30px 0px;
+    width: 100%;
+  }
+
+  .div-cfmc {
+    width: 100%;
+    margin: 0px 0 380px 0;
+  }
+
+  .div-cfmc button {
+    display: block;
+    margin: 0 15%;
+  }
+
+  .c-f-m-c- h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    text-align: start;
+    padding: 0 0 0px 30px;
+    width: 90%;
+  }
+
+  .lista-cfmc {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    width: 100%;
+    font-size: 15px;
+    text-align: initial;
+  }
+
+  .lista-cfmc div {
+    margin-right: 30px;
+  }
+
+  .lista-cfmc h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc p {
+    color: #212121;
+  }
+
+  .lista-cfmc li {
+    color: #ff7b1c;
+    margin: 0;
+    list-style-type: disc;
+  }
+
+  .lista-cfmc-2 {
+    font-family: "Montserrat";
+    display: inline-flex;
+    line-height: 23px;
+    width: 100%;
+    font-size: 15px;
+    text-align: initial;
+  }
+
+  .lista-cfmc-2 div {
+    margin-right: 20px;
+  }
+
+  .lista-cfmc-2 h2 {
+    color: #222222;
+  }
+
+  .lista-cfmc-2 p {
+    color: #212121;
+  }
+
+  .lista-cfmc-2 li {
+    color: #ff7b1c;
+    list-style-type: disc;
+  }
+
+  .img-cfmc {
+    transform: scale(0.55);
+    position: absolute;
+    transform-origin: left;
+    margin: 630px 0 0 0;
+    padding-left: 25px;
+  }
+
+  /* Sexta Section "Animação JS" */
+
+  .animacao-js {
+    background-color: #fffaf3;
+    display: flex;
+    padding: 0px 15px;
+  }
+
+  .doguinho {
+    width: 35%;
+    margin: 0px 20px 50px 0px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    font-size: 25px;
+    transform-origin: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .doguinho img {
+    padding: 0 0 0 30px;
+    transform: scale(0.7);
+  }
+
+  .doguinho h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0px 0 15px;
+  }
+
+  .doguinho h2 {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .planeta {
+    width: 30%;
+    margin: 0px 20px 50px 190px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 30px 95px;
+    font-size: 25px;
+    transform: scale(0.55);
+    transform-origin: left;
+    position: absolute;
+  }
+
+  .planeta img {
+    padding: 0 8%;
+    transform: scale(0.7);
+  }
+
+  .planeta h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .planeta h2 {
+    text-align: center;
+  }
+
+  /* Setima Section "Modalidades de Atendimento" */
+
+  .mod-atendimento {
+    display: inline;
+  }
+
+  .mod-atendimento h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    width: 100%;
+    margin: 30px 50px;
+  }
+
+  .card-m-a {
+    width: 100%;
+    margin: 0px 0px 0 5px;
+    line-height: 22px;
+    transform: scale(0.7);
+  }
+
+  .card-m-a h2 {
+    width: 100%;
+    font-family: "Montserrat";
+    display: inline;
+    position: absolute;
+    margin: 10px 5px;
+  }
+
+  .card-m-a p {
+    font-family: "Roboto";
+    color: #212121;
+  }
+
+  /* Oitava Section "Depoimentos" */
+
+  .depoimentos {
+    font-family: "Montserrat";
+    background-color: #fffaf3;
+    line-height: 25px;
+    padding: 20px;
+  }
+
+  .dep-1 {
+    margin: 0px 40px;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .dep-2 {
+    margin: 0px 50px;
+    padding: 25px 0px 50px 0px;
+  }
+
+  .depoimentos h1 {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .depoimentos p {
+    color: #6e6e6e;
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  /* Carrosel */
+
+  .container swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card-wrapper {
+    max-width: 1100px;
+    margin: 5% 20% 10%;
+    padding: 20px 10px;
+    overflow: hidden;
+    scale: 1.4;
+  }
+
+  .card-list .card-item {
+    list-style: none;
+  }
+
+  .card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link {
+    cursor: grabbing;
+  }
+
+  .card-list .card-item .card-link:hover {
+    border-color: #f28705;
+  }
+
+  .card-list .card-link .card-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #f28705;
+  }
+
+  .card-wrapper .swiper-pagination-bullet:active {
+    opacity: 1;
+  }
+
+  .card-wrapper swiper-slide-button {
+    color: #f28705;
+    margin-top: -35px;
+  }
+
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+    flex-wrap: wrap; /* Impede que os itens ultrapassem os limites */
+    max-width: 100%;
+    overflow: hidden;
+    min-width: 0;
+    padding-bottom: 50px;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 0px 20px;
+    padding: 50px 20px;
+    align-items: center;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 15px 0px;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    line-height: 25px;
+    margin: 15px 5px 25px 0px;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .cau-img img {
+    transform: scale(1.1);
+    padding: 0; /* Removendo padding lateral */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transform-origin: center;
+  }
+
+  .cau-conteudo button {
+    font-size: 15px;
+    padding: 20px 25px;
+    margin: 0 8% 0 0;
+    transform: scale(1);
+    font-size: 14px;
+  }
+
+  /* Footer */
+
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .logo-footer img {
+    margin: 10px 0 0 15%;
+    width: 100%;
+    transform: scale(1.3);
+  }
+
+  .div-footer {
+    margin: 0px 10% 40px 20%;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 7px;
+  }
+}
