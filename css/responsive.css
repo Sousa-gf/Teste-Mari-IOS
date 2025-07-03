@@ -2335,7 +2335,7 @@
 
   .lista-forma-trabalho {
     width: 55%;
-    color: #777777;
+    color: #000;
     font-family: "Montserrat";
     line-height: 22px;
     margin: 0 100px 0 50px;
@@ -2770,7 +2770,195 @@
     margin: 0px 10px;
   }
 }
+@media screen and (max-width: 853px) {
+  /* Conteudo do Header*/
+  .cabecalho {
+    display: flex;
+    width: 100%;
+    height: 539px;
+  }
 
+  .img-cabecalho {
+    margin-top: 25px;
+    transform: scale(0.6);
+    position: sticky;
+  }
+
+  .texto-cabecalho {
+    margin-bottom: 363px;
+    padding: 75px 85px 0 50px;
+    text-align: left;
+    color: white;
+  }
+
+  .texto-cabecalho h1 {
+    font-size: 40px;
+    font-family: "Poppins";
+  }
+  /* Terceira Section "Minha forma de trabalho" */
+
+  .forma-trabalho {
+    width: 100%;
+    background-color: #fffaf3;
+    height: 600px;
+  }
+
+  .lista-forma-trabalho h1 {
+    font-size: 35px;
+    color: #000000;
+    padding: 30px 0 20px 0;
+    line-height: 50px;
+    width: 80%;
+  }
+
+  .circulo-laranja {
+    background-color: #f28705;
+    padding: 150px 150px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-right: -30px;
+  }
+
+  .img-forma-trabalho {
+    position: absolute;
+    right: 0;
+    transform: scale(0.5);
+    transform-origin: right;
+    margin-top: 147px;
+  }
+  /* Quarta Section "Meus Serviços" */
+
+  .meus-servicos div {
+    width: 16%;
+    margin: 5px;
+    padding: 40px 20px 15px 30px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos div h2 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+
+  .meus-servicos-2 div {
+    width: 16%;
+    margin: 5px;
+    padding: 40px 20px 35px 30px;
+    background-color: #fffaf3;
+    border: 1px solid;
+    border-color: #f28705;
+    border-radius: 15px;
+    text-align: start;
+    list-style-type: disc;
+  }
+
+  .meus-servicos-2 div h2 {
+    color: #212121;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+  }
+  /* Quinta Section "Como Funciona a minha Consultoria" */
+
+  .img-cfmc {
+    position: absolute;
+    left: 0;
+    transform: scale(0.6);
+    transform-origin: left;
+    padding: 0px 0 0 50px;
+  }
+
+  .div-cfmc {
+    padding: 15px;
+    margin: 0 0 0 400px;
+  }
+
+  .div-cfmc button {
+    display: block;
+    margin-left: 30px;
+  }
+  /* Sexta Section "Animação JS" */
+
+  .doguinho {
+    width: 40%;
+    margin: 100px 20px;
+    font-family: "Montserrat";
+    background-color: #f28705;
+    border-radius: 20px;
+    padding: 50px 70px;
+    font-size: 25px;
+  }
+
+  .planeta img {
+    padding: 0 13%;
+  }
+  /* Nona Section "Acredito que cada animal é unico" */
+
+  .cada-animal-unico {
+    background-color: #f28705;
+    display: flex;
+  }
+
+  .cau-conteudo {
+    width: 100%;
+    margin: 0px 0 0 30px;
+    padding: 50px 0px;
+  }
+
+  .cau-conteudo h1 {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 15px 0px;
+  }
+
+  .cau-conteudo p {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 15px 28px 15px 0px;
+  }
+
+  .cau-img {
+    padding: 0%;
+    transform: scale(0.7);
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+  }
+
+  .logo-footer {
+    margin: 50px;
+  }
+
+  .div-footer {
+    margin: 80px 10px;
+  }
+
+  .icons-footer {
+    background-color: #f28705;
+    display: inline-block;
+    border-radius: 60%;
+  }
+
+  .img-footer {
+    padding: 11px 5px;
+    margin: 0px 10px;
+  }
+}
 @media screen and (max-width: 768px) {
   html,
   body {
