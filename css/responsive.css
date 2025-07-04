@@ -950,7 +950,6 @@
   }
 
   .botao:hover {
-    transform: scale(1.2);
     background-color: #f1f1f1;
     color: #07b434;
     border-style: solid;
@@ -1575,7 +1574,6 @@
   }
 
   .botao:hover {
-    transform: scale(1.2);
     background-color: #f1f1f1;
     color: #07b434;
     border-style: solid;
@@ -2203,7 +2201,6 @@
   }
 
   .botao:hover {
-    transform: scale(1.2);
     background-color: #f1f1f1;
     color: #07b434;
     border-style: solid;
@@ -3025,7 +3022,6 @@
   }
 
   .botao:active {
-    transform: scale(1.2);
     background-color: #f1f1f1;
     color: #07b434;
     border-style: solid;
@@ -3157,7 +3153,7 @@
 
   .lista-forma-trabalho {
     width: 60%;
-    color: #777777;
+    color: #000;
     font-family: "Montserrat";
     line-height: 22px;
     margin: 0 100px 0 50px;
@@ -3168,7 +3164,7 @@
     padding: 100px 100px;
     position: absolute;
     border-radius: 50%;
-    right: 50px;
+    right: 80px;
     margin-top: 365px;
   }
 
@@ -3560,6 +3556,7 @@
   .cau-img {
     padding: 20px 18%;
     margin-bottom: 30px;
+    transform: scale(1);
   }
 
   /* Footer */
@@ -3656,7 +3653,6 @@
   }
 
   .botao:active {
-    transform: scale(1.2);
     background-color: #f1f1f1;
     color: #07b434;
     border-style: solid;
@@ -3808,14 +3804,14 @@
     padding: 150px 150px;
     position: absolute;
     border-radius: 50%;
-    right: 12%;
+    right: 80px;
     margin-top: 655px;
   }
 
   .img-forma-trabalho {
     transform: scale(0.5);
     position: absolute;
-    right: 5%;
+    right: 20px;
     margin-top: 502px;
   }
 
@@ -3986,7 +3982,7 @@
     transform: scale(0.55);
     position: absolute;
     transform-origin: left;
-    margin: 600px 0 0 20px;
+    margin: 620px 0 0 20px;
     padding-left: 15px;
   }
 
@@ -4000,7 +3996,7 @@
 
   .doguinho {
     width: 30%;
-    margin: 0px 20px 50px 20px;
+    margin: 10px 20px 50px 20px;
     font-family: "Montserrat";
     background-color: #f28705;
     border-radius: 20px;
@@ -4027,7 +4023,7 @@
 
   .planeta {
     width: 30%;
-    margin: 0px 20px 50px 210px;
+    margin: 10px 20px 50px 210px;
     font-family: "Montserrat";
     background-color: #f28705;
     border-radius: 20px;
@@ -4327,7 +4323,6 @@
   }
 
   .botao:active {
-    transform: scale(1.2);
     background-color: #f1f1f1;
     color: #07b434;
     border-style: solid;
@@ -4477,7 +4472,7 @@
     padding: 125px;
     position: absolute;
     border-radius: 50%;
-    right: 58px;
+    right: 95px;
     margin-top: 635px;
   }
 
