@@ -2,7 +2,7 @@
 function startCounter(element, start, end, duration, prefix = "") {
   let range = end - start;
   let current = start;
-  let increment = end > start ? 10 : -3;
+  let increment = end > start ? 10 : 10;
   let stepTime = Math.abs(Math.floor(duration / range));
   let timer = setInterval(() => {
     current += increment;
