@@ -2980,7 +2980,7 @@
 
   .img-cabecalho {
     position: absolute;
-    margin-top: 250px;
+    margin-top: 283px;
   }
 
   .texto-cabecalho {
@@ -3777,13 +3777,14 @@
   .lista-forma-trabalho h1 {
     font-size: 30px;
     color: #000000;
-    padding: 0 0 20px 0;
+    padding: 10px 0 20px 0;
     line-height: 30px;
     width: 100%;
   }
 
   .lista-forma-trabalho ul {
-    padding: 5px 0 30px 25px;
+    padding: 5px 0 30px 0px;
+    text-align: justify;
     line-height: 30px;
   }
 
@@ -3792,7 +3793,7 @@
     color: #242424;
     font-family: "Montserrat";
     line-height: 22px;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 40px;
   }
 
   .lista-forma-trabalho button {
@@ -3983,7 +3984,7 @@
     position: absolute;
     transform-origin: left;
     margin: 620px 0 0 20px;
-    padding-left: 15px;
+    padding-left: 55px;
   }
 
   /* Sexta Section "Animação JS" */
@@ -3991,7 +3992,7 @@
   .animacao-js {
     background-color: #fffaf3;
     display: flex;
-    padding: 0px 15px;
+    padding: 0px 5%;
   }
 
   .doguinho {
@@ -4348,7 +4349,7 @@
     transform: scale(0.6);
     padding: 0px;
     left: 0;
-    margin-left: 36px;
+    margin-left: 46px;
     margin-top: 660px;
   }
 
@@ -4449,13 +4450,13 @@
   .lista-forma-trabalho h1 {
     font-size: 30px;
     color: #000000;
-    padding: 0 0 20px 0;
+    padding: 10px 0 20px 0;
     line-height: 30px;
     width: 100%;
   }
 
   .lista-forma-trabalho ul {
-    padding: 5px 0 30px 25px;
+    padding: 5px 0 30px 5px;
     line-height: 30px;
   }
 
@@ -4479,7 +4480,7 @@
   .img-forma-trabalho {
     position: absolute;
     right: 25px;
-    margin-top: 470px;
+    margin-top: 472px;
     transform: scale(0.45);
   }
 
@@ -4653,8 +4654,8 @@
     transform: scale(0.55);
     position: absolute;
     transform-origin: left;
-    margin: 630px 0 0 0;
-    padding-left: 25px;
+    margin: 610px 0 0 0;
+    padding-left: 35px;
   }
 
   /* Sexta Section "Animação JS" */
@@ -4667,7 +4668,7 @@
 
   .doguinho {
     width: 35%;
-    margin: 0px 20px 50px 0px;
+    margin: 1px 20px 45px 10px;
     font-family: "Montserrat";
     background-color: #f28705;
     border-radius: 20px;
@@ -4679,7 +4680,7 @@
 
   .doguinho img {
     padding: 0 0 0 30px;
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   .doguinho h1 {
@@ -4695,7 +4696,7 @@
 
   .planeta {
     width: 30%;
-    margin: 0px 20px 50px 190px;
+    margin: 0px 20px 50px 200px;
     font-family: "Montserrat";
     background-color: #f28705;
     border-radius: 20px;
@@ -4708,7 +4709,7 @@
 
   .planeta img {
     padding: 0 8%;
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   .planeta h1 {
