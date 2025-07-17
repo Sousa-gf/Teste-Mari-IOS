@@ -3771,7 +3771,7 @@
   .forma-trabalho {
     width: 100%;
     background-color: #fffaf3;
-    padding-bottom: 350px;
+    padding-bottom: 280px;
   }
 
   .lista-forma-trabalho h1 {
@@ -3806,21 +3806,21 @@
     position: absolute;
     border-radius: 50%;
     right: 80px;
-    margin-top: 655px;
+    margin-top: 575px;
   }
 
   .img-forma-trabalho {
     transform: scale(0.5);
     position: absolute;
     right: 20px;
-    margin-top: 502px;
+    margin-top: 432px;
   }
 
   /* Quarta Section "Meus Serviços" */
 
   .img-ms {
     transform: scale(0.8);
-    margin: 95px 0 0 15px;
+    margin: 35px 0 0 15px;
     position: absolute;
   }
 
@@ -3828,7 +3828,7 @@
     font-family: "Montserrat";
     font-size: 30px;
     display: inline-block;
-    margin: 115px 0 0 75px;
+    margin: 55px 0 0 75px;
   }
 
   .meus-servicos {
@@ -3984,7 +3984,7 @@
     position: absolute;
     transform-origin: left;
     margin: 620px 0 0 20px;
-    padding-left: 55px;
+    padding-left: 25px;
   }
 
   /* Sexta Section "Animação JS" */
@@ -4444,7 +4444,7 @@
   .forma-trabalho {
     width: 100%;
     background-color: #fffaf3;
-    padding-bottom: 306px;
+    padding-bottom: 256px;
   }
 
   .lista-forma-trabalho h1 {
@@ -4474,20 +4474,20 @@
     position: absolute;
     border-radius: 50%;
     right: 95px;
-    margin-top: 635px;
+    margin-top: 575px;
   }
 
   .img-forma-trabalho {
     position: absolute;
     right: 25px;
-    margin-top: 472px;
+    margin-top: 422px;
     transform: scale(0.45);
   }
 
   /* Quarta Section "Meus Serviços" */
 
   .img-ms {
-    margin: 100px 0 0 35px;
+    margin: 30px 0 0 35px;
     position: absolute;
   }
 
@@ -4495,7 +4495,7 @@
     font-family: "Montserrat";
     font-size: 30px;
     display: inline-block;
-    margin: 115px 0 0 95px;
+    margin: 45px 0 0 95px;
   }
 
   .meus-servicos {
