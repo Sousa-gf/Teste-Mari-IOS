@@ -287,7 +287,8 @@
     position: relative;
     right: 0;
     transform-origin: right;
-    top: 8px;
+    top: 76px;
+    transform: scale(0.8);
   }
 
   .texto-cabecalho {
@@ -469,15 +470,17 @@
 
   .circulo-laranja {
     background-color: #f28705;
-    padding: 300px 300px;
+    padding: 200px 200px;
     position: absolute;
     border-radius: 50%;
     right: 60px;
   }
 
   .img-forma-trabalho {
-    position: absolute;
-    right: 10px;
+    position: relative;
+    right: 0px;
+    margin-top: 60px;
+    transform: scale(0.8);
   }
 
   /* Quarta Section "Meus Serviços" */
@@ -1065,11 +1068,11 @@
   }
 
   .lista-forma-trabalho h1 {
-    font-size: 40px;
+    font-size: 35px;
     color: #000000;
     padding: 0 0 20px 0;
     line-height: 50px;
-    width: 50%;
+    width: 70%;
   }
 
   .lista-forma-trabalho ul {
@@ -1087,15 +1090,17 @@
 
   .circulo-laranja {
     background-color: #f28705;
-    padding: 300px 300px;
+    padding: 200px 200px;
     position: absolute;
     border-radius: 50%;
-    right: 60px;
+    right: 140px;
+    margin-top: 130px;
   }
 
   .img-forma-trabalho {
     position: absolute;
-    right: 10px;
+    right: -20px;
+    transform: scale(0.8);
   }
 
   /* Quarta Section "Meus Serviços" */
@@ -1215,7 +1220,7 @@
     font-size: 40px;
     text-align: start;
     padding: 0 0 40px 0;
-    width: 70%;
+    width: 90%;
   }
 
   .lista-cfmc {
@@ -1716,8 +1721,8 @@
     padding: 150px 150px;
     position: absolute;
     border-radius: 50%;
-    margin-top: 250px;
-    margin-right: 0px;
+    margin-top: 240px;
+    right: 60px;
   }
 
   .img-forma-trabalho {
