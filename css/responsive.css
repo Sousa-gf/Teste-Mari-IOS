@@ -2985,18 +2985,19 @@
 
   .img-cabecalho {
     position: absolute;
-    margin-top: 283px;
+    margin-top: 216px;
   }
 
   .texto-cabecalho {
     margin-bottom: 363px;
-    padding: 75px 85px 0 100px;
+    padding: 55px 85px 0 80px;
     text-align: left;
     color: white;
   }
 
   .texto-cabecalho h1 {
-    font-size: 50px;
+    width: 70%;
+    font-size: 40px;
     font-family: "Poppins";
   }
 
