@@ -3628,6 +3628,7 @@
   }
 
   .texto-cabecalho h1 {
+    width: 100%;
     font-size: 35px;
     font-family: "Poppins";
   }
