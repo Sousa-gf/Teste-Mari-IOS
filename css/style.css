@@ -25,18 +25,18 @@ header {
 
 .img-cabecalho {
   position: relative;
-  right: 0;
-  transform-origin: right;
+  right: -70px;
+  transform-origin: left;
   top: 8px;
 }
 
 .texto-cabecalho {
-  padding: 125px 85px 0 205px;
+  padding: 125px 5px 0 205px;
   margin-bottom: 187px;
   text-align: left;
   color: white;
   display: inline-block;
-  margin-right: 300px;
+  margin-right: 200px;
 }
 
 .texto-cabecalho h1 {
@@ -190,7 +190,7 @@ h2 {
   color: #000000;
   padding: 0 0 20px 0;
   line-height: 50px;
-  width: 50%;
+  width: 100%;
 }
 
 .lista-forma-trabalho ul {
@@ -336,7 +336,7 @@ h2 {
   font-size: 35px;
   text-align: start;
   padding: 0 0 40px 20px;
-  width: 50%;
+  width: 70%;
 }
 
 .lista-cfmc {
