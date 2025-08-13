@@ -2160,13 +2160,14 @@
   }
 
   .img-cabecalho {
-    margin-top: -71px;
-    transform: scale(0.7);
+    margin-top: -27px;
+    transform: scale(0.6);
+    margin-left: 0;
   }
 
   .texto-cabecalho {
     margin-bottom: 0px;
-    padding: 100px 0px 0px 75px;
+    padding: 100px 0px 0px 55px;
     text-align: left;
     color: white;
     display: inline-block;
@@ -2721,8 +2722,8 @@
   }
 
   .cau-conteudo {
-    width: 50%;
-    margin: 0px 50px;
+    width: 100%;
+    margin: 0px 30px 0px;
     padding: 50px 0px;
   }
 
@@ -2743,7 +2744,8 @@
   }
 
   .cau-img {
-    padding: 5%;
+    padding: 0;
+    transform: scale(0.8);
   }
 
   /* Footer */
@@ -2984,7 +2986,7 @@
   }
 
   .img-cabecalho {
-    margin-top: -563px;
+    margin-top: -529px;
     transform: scale(0.6);
     margin-left: auto;
   }
